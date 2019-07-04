@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NightOwl.Views.testpage">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center"
+                      Spacing="10">
+
+            <Label x:Name="Lbl_Title" Text="NIGHT OWL" FontFamily="Times New Roman"
+                   FontAttributes="Bold" FontSize="Large"
+                   HorizontalOptions="StartAndExpand" TextColor="White"></Label>
+            
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="MasterStack">
+                <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
+                    <Image x:Name="BirdLogo" Source="bird.png" Margin="0,20,0,0"></Image>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout.Padding>
+                <OnIdiom x:TypeArguments="Thickness">
+                        <OnIdiom.Phone>10,0,10,0</OnIdiom.Phone>
+                        <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+                </OnIdiom>
+            </StackLayout.Padding>
+                </StackLayout>
+
+                <Frame>
+                        <Button Text="Check this out"
+                                BackgroundColor="DodgerBlue"
+                                TextColor="White"
+                                FontSize="30" 
+                                Margin="18"
+                                HorizontalOptions="Center"
+                                Clicked="Button_Clicked"/>
+
+
+                    </Frame>
+                
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

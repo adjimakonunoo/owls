@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NightOwl.LoginPage">
+   
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center"
+                      Spacing="10">
+
+            <Label x:Name="Lbl_Title" Text="NIGHT OWL" FontFamily="Times New Roman"
+                   FontAttributes="Bold" FontSize="Large"
+                   HorizontalOptions="StartAndExpand" TextColor="White"></Label>
+        <Button x:Name="Clear" Text="Clear" HorizontalOptions="End" BackgroundColor="DodgerBlue" 
+                WidthRequest="70" TextColor="White" Clicked="Clear_Clicked"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+             <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="BorderWidth" Value="5" />
+                <Setter Property="WidthRequest" Value="190"/>
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="DodgerBlue" />
+                <Setter Property="CornerRadius" Value="100" />
+         </Style>
+            <Style x:Key="EntryLabel" TargetType="Entry">
+                <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+                <Setter Property="WidthRequest" Value="400" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ScrollView>
+        <StackLayout x:Name="MasterStack">
+
+            <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
+                <Image x:Name="BirdLogo" Source="bird.png" Margin="0,20,0,0"></Image>
+            </StackLayout>
+            <StackLayout x:Name="EntryStack" VerticalOptions="CenterAndExpand" >
+            <StackLayout.Padding>
+                <OnIdiom x:TypeArguments="Thickness">
+                        <OnIdiom.Phone>10,0,10,0</OnIdiom.Phone>
+                        <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+                </OnIdiom>
+            </StackLayout.Padding>
+                <StackLayout>
+                    <ActivityIndicator x:Name="indicator" IsRunning="{Binding IsBusy}"
+                                       VerticalOptions="Center" HorizontalOptions="Center" Color="Blue">
+                    </ActivityIndicator>
+                </StackLayout>
+                <Label x:Name="Lbl_Username" Text="Username"></Label>
+                <Entry x:Name="Entry_Username" Placeholder="Username"
+                       Style="{StaticResource EntryLabel}"></Entry>
+                <Label x:Name="Lbl_Password" Text="Password"></Label>
+                <Entry x:Name="Entry_Password" Placeholder="Password" 
+                       IsPassword="True" IsTextPredictionEnabled="False"
+                       IsSpellCheckEnabled="False" Style="{StaticResource EntryLabel}"></Entry>
+               
+                    <StackLayout Orientation="Horizontal">
+                        <Button x:Name="Btn_SignIn" Text="Sign In" Clicked="SignInProcedure" 
+                    Style="{StaticResource buttonStyle}" HorizontalOptions="Start"></Button>
+
+                    <Button x:Name="Btn_Register" Text="Register" Clicked="RegisterProcedure" 
+                            Style="{StaticResource buttonStyle}" HorizontalOptions="End"></Button>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

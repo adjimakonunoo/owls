@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NightOwl.Views.Dashboard">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout Orientation="Vertical">
+                <StackLayout.Children>
+                    <Label Text="{Binding Header}" ></Label>
+                    <Image Source="{Binding Icon}" ></Image>
+                    <Label Text="{Binding Footer}" HorizontalOptions="Center" FontSize="Large" FontAttributes="Italic"></Label>
+                </StackLayout.Children>
+                
+                
+                <ListView x:Name="DrawerList"
+                          RowHeight="55"
+                          SeparatorVisibility="Default"
+                          ItemSelected="OnMenuItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="{Binding Icon}"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Start">
+                                        
+                                    </Image>
+                                        <Label Text="{Binding Title}"
+                                               FontSize="Small"
+                                               VerticalOptions="End"
+                                               TextColor="Black">
+                                            
+                                        </Label>
+                                    
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackLayout VerticalOptions="End">
+                    <Button Text="Logout" Clicked="LogoutCicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+                     
+        
+    </MasterDetailPage.Master>
+</MasterDetailPage>
