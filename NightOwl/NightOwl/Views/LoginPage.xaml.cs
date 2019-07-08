@@ -53,9 +53,9 @@ namespace NightOwl
                 this.IsBusy = false;
             }*/
         }
-        async void RegisterProcedure(object sender, EventArgs e)
+         void RegisterProcedure(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new RegistrationPage()), true);
+             Navigation.PushAsync(new RegistrationPage(), true);
         }
 
         private void Clear_Clicked(object sender, EventArgs e)

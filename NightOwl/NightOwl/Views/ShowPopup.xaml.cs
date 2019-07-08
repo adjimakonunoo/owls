@@ -1,4 +1,5 @@
 ﻿using Rg.Plugins.Popup.Pages;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,12 @@ namespace NightOwl.Views
         public ShowPopup()
         {
             InitializeComponent();
+        }
+
+        void Accounts_Btn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new NavigationPage (new AccountsPage()), true);
+            PopupNavigation.Instance.PopAsync(true);  
         }
     }
 }

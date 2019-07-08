@@ -15,6 +15,11 @@ namespace NightOwl.Views
         public AgentPoll()
         {
             InitializeComponent();
+            Init();
+        }
+        void Init()
+        {
+            BackgroundColor = Constants.BackgroundColor;
         }
     }
 }

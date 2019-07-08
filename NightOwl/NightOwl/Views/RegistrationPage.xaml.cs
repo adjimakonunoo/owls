@@ -43,7 +43,7 @@ namespace NightOwl
             if (user.CheckRegInfo())
             {
                 DisplayAlert("Registration", "Successful", "Ok");
-                Navigation.PushModalAsync(new Dashboard(), true);
+                Navigation.PushModalAsync(new NavigationPage (new Dashboard()), true);
             }
             else
             {

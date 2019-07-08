@@ -1,7 +1,5 @@
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.Android.dll
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.Android.pdb
-D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.NightOwl.apk
-D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.NightOwl-Signed.apk
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.Android.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\FormsViewGroup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Microsoft.CSharp.pdb
@@ -11,8 +9,10 @@ D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Mono.Android.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\mscorlib.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Plugin.Connectivity.Abstractions.pdb
+D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Rg.Plugins.Popup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Core.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.pdb
+D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.IO.Compression.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Net.Http.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Numerics.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Numerics.Vectors.pdb
@@ -24,7 +24,6 @@ D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Xamarin.Forms.Platform.Androi
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Xamarin.Forms.Xaml.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Data.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Transactions.pdb
-D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.IO.Compression.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.IO.Compression.FileSystem.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.ComponentModel.Composition.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Runtime.Serialization.pdb
@@ -32,6 +31,7 @@ D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.ServiceModel.Internals
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\System.Web.Services.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Mono.Security.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Plugin.Connectivity.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Rg.Plugins.Popup.Droid.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Xam.Plugin.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\Xam.Plugin.Droid.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Release\NightOwl.dll
@@ -47,7 +47,6 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\XamlC.stamp
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\NightOwl.Android.csproj.CopyComplete
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\NightOwl.Android.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\NightOwl.Android.pdb
-D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\bin\NightOwl.NightOwl.apk
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\res\drawable\bird.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\res\layout\tabbar.xml
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\res\layout\toolbar.xml
@@ -98,8 +97,11 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Newtonsoft.Json.dl
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\NightOwl.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Plugin.Connectivity.Abstractions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Plugin.Connectivity.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Rg.Plugins.Popup.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Rg.Plugins.Popup.Droid.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Core.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.IO.Compression.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Net.Http.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Net.Http.Extensions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Net.Http.Primitives.dll
@@ -132,6 +134,8 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Android.Su
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Android.Support.v7.Palette.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.CustomControls.AccordionView.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.CustomControls.StateButton.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Essentials.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Forms.Core.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Forms.Platform.Android.dll
@@ -140,7 +144,6 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Forms.Xaml
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\netstandard.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Data.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Transactions.dll
-D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.IO.Compression.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.IO.Compression.FileSystem.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.ComponentModel.Composition.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Runtime.Serialization.dll
@@ -151,13 +154,19 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Memory.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Runtime.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Threading.Tasks.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Threading.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Collections.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Diagnostics.Debug.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Reflection.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Runtime.Extensions.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Reflection.Extensions.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Linq.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Mono.Security.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Runtime.InteropServices.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Net.Primitives.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Threading.Tasks.Extensions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Resources.ResourceManager.dll
-D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Collections.dll
-D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Linq.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Diagnostics.Tools.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.ObjectModel.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\FormsViewGroup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Microsoft.CSharp.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\MonkeyCache.pdb
@@ -166,8 +175,10 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Mono.Android.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\mscorlib.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\NightOwl.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Plugin.Connectivity.Abstractions.pdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Rg.Plugins.Popup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Core.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.pdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.IO.Compression.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Net.Http.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Numerics.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Numerics.Vectors.pdb
@@ -179,7 +190,6 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Forms.Plat
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xamarin.Forms.Xaml.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Data.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Transactions.pdb
-D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.IO.Compression.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.IO.Compression.FileSystem.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.ComponentModel.Composition.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Runtime.Serialization.pdb
@@ -188,6 +198,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\System.Web.Service
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Mono.Security.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\NightOwl.Android.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Plugin.Connectivity.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Rg.Plugins.Popup.Droid.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xam.Plugin.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\linksrc\Xam.Plugin.Droid.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\link.flag
@@ -228,6 +239,10 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Plugin.Conn
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Plugin.Connectivity.Abstractions.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Plugin.Connectivity.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Plugin.Connectivity.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Rg.Plugins.Popup.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Rg.Plugins.Popup.Droid.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Rg.Plugins.Popup.Droid.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Rg.Plugins.Popup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\System.Buffers.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\System.Core.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\System.Core.pdb
@@ -277,6 +292,8 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.And
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.CustomControls.AccordionView.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.CustomControls.StateButton.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.Essentials.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.Essentials.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\Xamarin.Forms.Core.dll
@@ -292,6 +309,9 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\stamp\_CopyIntermediateAss
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\stamp\_CopyMdbFiles.stamp
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\stamp\_CopyPdbFiles.stamp
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\stamp\_ResolveLibraryProjectImports.stamp
+D:\Workspace\NightOwl\NightOwl.Android\bin\Release\tryme1.NightOwl.apk
+D:\Workspace\NightOwl\NightOwl.Android\bin\Release\tryme1.NightOwl-Signed.apk
+D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\bin\tryme1.NightOwl.apk
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\android\assets\machine.config
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\stamp\_CompileToDalvik.stamp
 D:\Workspace\NightOwl\NightOwl.Android\obj\Release\81\stamp\_GeneratePackageManagerJava.stamp

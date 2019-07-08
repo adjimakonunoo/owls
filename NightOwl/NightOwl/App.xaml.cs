@@ -32,6 +32,7 @@ namespace NightOwl
         {
             // Handle when your app starts
         }
+        
 
         protected override void OnSleep()
         {

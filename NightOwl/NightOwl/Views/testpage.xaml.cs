@@ -29,5 +29,10 @@ namespace NightOwl.Views
         {
             PopupNavigation.Instance.PushAsync(new ShowPopup(), true);
         }
+
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
     }
 }

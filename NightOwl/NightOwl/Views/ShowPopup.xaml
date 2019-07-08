@@ -3,18 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NightOwl.Views.ShowPopup"
                  xmlns:pages ="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 BackgroundColor="White">
 
-    <StackLayout x:Name="MasterStack" Margin="12"
-               Padding="24"
-               Spacing="24"
-               BackgroundColor="White"
-               HorizontalOptions="Center"
-               VerticalOptions="Center">
-        <StackLayout>
-            <Button BackgroundColor="DodgerBlue"
-                Text="Go to Accounts"/>
-        </StackLayout>
-
+        <Button x:Name="Accounts_Btn" BackgroundColor="DodgerBlue"
+                Text="Go to Accounts" TextColor="White" Clicked="Accounts_Btn_Clicked"/>
+        <Button BackgroundColor="DodgerBlue"
+                    Text="Update Profile" TextColor="White"/>
+        <Button BackgroundColor="DodgerBlue"
+                    Text="Try" TextColor="White"/>
+  
+   
+        
     </StackLayout>
+    
 
 </pages:PopupPage>

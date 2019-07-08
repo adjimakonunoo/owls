@@ -45,8 +45,9 @@ namespace NightOwl
                     return true;
                 else
                     return false;
-            }catch(NullReferenceException)
+            }catch(Exception ex)
             {
+                System.Diagnostics.Debug.WriteLine(ex);
                 return false;
             }
         }

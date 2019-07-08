@@ -7,7 +7,7 @@
             <StackLayout Orientation="Vertical">
                 <StackLayout.Children>
                     <Label Text="{Binding Header}" ></Label>
-                    <Image Source="{Binding Icon}" ></Image>
+                    <Image Source="{Binding Icon}"/>
                     <Label Text="{Binding Footer}" HorizontalOptions="Center" FontSize="Large" FontAttributes="Italic"></Label>
                 </StackLayout.Children>
                 

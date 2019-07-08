@@ -21,8 +21,8 @@ namespace NightOwl.Views
             InitializeComponent();
             menuList = new List<MasterPageItem>();
 
-            var page1 = new MasterPageItem() { Title = "Login", Icon = "bird.png", TargetType = typeof(LoginPage) };
-            var page2 = new MasterPageItem() { Title = "Register", Icon = "test.png", TargetType = typeof(RegistrationPage) };
+            var page1 = new MasterPageItem() { Title = "About Us", Icon = "bird.png", TargetType = typeof(About_Us) };
+            var page2 = new MasterPageItem() { Title = "Terms&Conditions", Icon = "test.png", TargetType = typeof(Terms_and_Conditions) };
             var page3 = new MasterPageItem() { Title = "Agent Poll", Icon = "yea.png", TargetType = typeof(AgentPoll) };
 
 
@@ -34,6 +34,7 @@ namespace NightOwl.Views
             DrawerList.ItemsSource = menuList;
 
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(testpage)));
+           IsGestureEnabled = true;
             this.BindingContext = new
             {
                 Header = "",
@@ -43,10 +44,18 @@ namespace NightOwl.Views
         }
             private void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)
             {
-                var item = (MasterPageItem)e.SelectedItem;
-                Type page = item.TargetType;
+            var item = (MasterPageItem)e.SelectedItem;
+            
+            if (item == null)
+                return;
+            // Type page = item.TargetType;
 
-                Detail = new NavigationPage((Page)Activator.CreateInstance(page));
+            //Detail=  (Page)Activator.CreateInstance(page);
+            var page = (Page)Activator.CreateInstance(item.TargetType);
+            
+            Detail = new NavigationPage(page);
+            IsPresented = false;
+           
             }
         async void LogoutCicked(object sender, EventArgs e)
         {

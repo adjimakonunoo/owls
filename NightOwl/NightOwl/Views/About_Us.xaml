@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NightOwl.Views.About_Us">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center"
+                      Spacing="10">
+
+            <Label x:Name="Lbl_Title" Text="About Us" FontFamily="Times New Roman"
+                   FontAttributes="Bold"  FontSize="Medium"
+                   HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="Center"></Label>
+
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <StackLayout x:Name="MasterStack">
+        <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
+            <Image x:Name="BirdLogo" Source="bird.png" ></Image>
+        </StackLayout>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Get to know us well"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
