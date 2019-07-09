@@ -1,5 +1,6 @@
 ExpandableView
 FormsViewGroup
+ImageCircle.Forms.Plugin
 Microsoft.AspNetCore.Http.Abstractions
 Microsoft.AspNetCore.Http.Extensions
 Microsoft.AspNetCore.Http.Features

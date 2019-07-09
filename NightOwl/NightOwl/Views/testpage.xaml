@@ -1,42 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NightOwl.Views.testpage">
-    <NavigationPage.TitleView>
+             x:Class="NightOwl.Views.testpage"
+             xmlns:controls ="clr-namespace:NightOwl.Views; assembly">
+   
+    <!--<NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" VerticalOptions="Center"
                       Spacing="10">
         </StackLayout>
-    </NavigationPage.TitleView>
+    </NavigationPage.TitleView>-->
     <ContentPage.ToolbarItems>
         
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         
         <ScrollView>
-            <StackLayout x:Name="MasterStack">
-                <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
+            <StackLayout x:Name="MasterStack" VerticalOptions="Center">
+                <!--<StackLayout x:Name="LogoStack" VerticalOptions="Fill">
                     <Image x:Name="BirdLogo" Source="bird.png" Margin="0,20,0,0"></Image>
-                </StackLayout>
+                </StackLayout>-->
                 <StackLayout>
                     <StackLayout.Padding>
-                <OnIdiom x:TypeArguments="Thickness">
-                        <OnIdiom.Phone>10,0,10,0</OnIdiom.Phone>
-                        <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
-                </OnIdiom>
-            </StackLayout.Padding>
+                        <OnIdiom x:TypeArguments="Thickness">
+                            <OnIdiom.Phone>10,0,10,0</OnIdiom.Phone>
+                            <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+                        </OnIdiom>
+                    </StackLayout.Padding>
 
 
-                    <Frame HasShadow="True" BackgroundColor="AliceBlue">
+                    <!--<Frame HasShadow="True" BackgroundColor="AliceBlue">
                         <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked" NumberOfTapsRequired="1" />
-                        </Frame.GestureRecognizers> 
-                               
+                            <TapGestureRecognizer Tapped="Button_Clicked" NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
+                        <Label HorizontalOptions="FillAndExpand" Text="Find out what's here"
+                               FontSize="Medium"/>
 
 
-                    </Frame>
+                    </Frame>-->
+
+                    <Grid  RowSpacing="0">
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition Height="*" />
+
+                        </Grid.RowDefinitions>
+
+                        <!--  row background colors  -->
+
+                        <BoxView Grid.Row="0" Color="#F1F2F2" />
+
+
+
+                        <!--  inner grid for button layouts  -->
+                        <Grid Grid.Row="0" ColumnSpacing="20" HorizontalOptions="Center"
+              RowSpacing="-30" VerticalOptions="Center" BackgroundColor="AliceBlue">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <controls:SwitchboardButton Grid.Row="0" Grid.Column="0" Icon="hhh.png"
+                                        Label="About Us">
+                                <controls:SwitchboardButton.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="CameraButtonTapped" />
+                                </controls:SwitchboardButton.GestureRecognizers>
+                            </controls:SwitchboardButton>
+
+                            <controls:SwitchboardButton Grid.Row="0" Grid.Column="1" Icon="find.png"
+                                        Label="Terms And Conditions">
+                                <controls:SwitchboardButton.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TagButtonTapped" />
+                                </controls:SwitchboardButton.GestureRecognizers>
+                            </controls:SwitchboardButton>
+
+                            <controls:SwitchboardButton Grid.Row="1" Grid.Column="0" Icon="phone.png"
+                                        Label="Locate Agent">
+                                <controls:SwitchboardButton.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ShoppingButtonTapped" />
+                                </controls:SwitchboardButton.GestureRecognizers>
+                            </controls:SwitchboardButton>
+
+                            <controls:SwitchboardButton Grid.Row="1" Grid.Column="1" Icon="money.png"
+                                        Label="My Accounts">
+                                <controls:SwitchboardButton.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TwitterButtonTapped" />
+                                </controls:SwitchboardButton.GestureRecognizers>
+                            </controls:SwitchboardButton>
+
+                        </Grid>
+                    </Grid>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
-
     </ContentPage.Content>
+        
 </ContentPage>

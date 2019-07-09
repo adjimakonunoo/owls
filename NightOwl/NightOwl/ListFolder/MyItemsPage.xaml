@@ -7,10 +7,35 @@
     <ContentPage.BindingContext>
         <local:MyItemsView/>
     </ContentPage.BindingContext>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+    <StackLayout x:Name="MasterStack">
+    <ListView ItemsSource="{Binding MyItems}"
+                 HasUnevenRows="True"
+                 Margin="40,80"
+              ItemTapped="ListView_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout>
+                        <Label Text="{Binding Title}"/>
+                        <Button Text="Details"
+                                IsVisible="{Binding IsVisible}"
+                                BackgroundColor="Transparent"
+                                />
+                        <Button Text="Details1"
+                                IsVisible="{Binding IsVisible}"
+                                BackgroundColor="Transparent"
+                                />
+                        <Button Text="Details2"
+                                IsVisible="{Binding IsVisible}"
+                                BackgroundColor="Transparent"
+                                />
+
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        
+    </ListView>
     
+    </StackLayout>
 </ContentPage>

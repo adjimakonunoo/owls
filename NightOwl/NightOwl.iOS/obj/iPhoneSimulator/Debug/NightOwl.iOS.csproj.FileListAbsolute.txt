@@ -1,12 +1,3 @@
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.IO.Compression.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Net.WebSockets.WebSocketProtocol.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.X509Certificates.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Websockets.Ios.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\NightOwl.iOS.exe
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\NightOwl.iOS.pdb
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\ExpandableView.dll
@@ -34,13 +25,19 @@ D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.IO
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.pdb
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.IO.Compression.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Net.WebSockets.Client.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Net.WebSockets.WebSocketProtocol.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Algorithms.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Encoding.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.X509Certificates.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\System.Text.Encodings.Web.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\WebSockets.PCL.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Websockets.Ios.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.pdb
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.dll
@@ -53,6 +50,7 @@ D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.CustomContr
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.CustomControls.StateButton.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
@@ -66,6 +64,8 @@ D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Pl
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
@@ -109,4 +109,5 @@ D:\Workspace\NightOwl\NightOwl.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 D:\Workspace\NightOwl\NightOwl.iOS\obj\iPhoneSimulator\Debug\NightOwl.iOS.csproj.CopyComplete
 D:\Workspace\NightOwl\NightOwl.iOS\obj\iPhoneSimulator\Debug\NightOwl.iOS.exe
 D:\Workspace\NightOwl\NightOwl.iOS\obj\iPhoneSimulator\Debug\NightOwl.iOS.pdb
-D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\NightOwl.dll.mdb
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\ImageCircle.Forms.Plugin.dll
+D:\Workspace\NightOwl\NightOwl.iOS\bin\iPhoneSimulator\Debug\ImageCircle.Forms.Plugin.pdb

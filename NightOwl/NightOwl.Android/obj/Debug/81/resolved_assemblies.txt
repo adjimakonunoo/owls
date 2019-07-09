@@ -1,6 +1,7 @@
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\NightOwl.Android.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ExpandableView.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Java.Interop.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Microsoft.AspNetCore.Http.Abstractions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Microsoft.AspNetCore.Http.Extensions.dll

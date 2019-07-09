@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b40dd74b4769f2149db55767572baa1bc913448c"
+    "signature": "da670800caaa2ec6c186d1889b762c414711580a"
   },
   "compilationOptions": {},
   "targets": {
@@ -23,6 +23,7 @@
           "Websockets.Pcl": "1.1.9",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugin.PopupMenu": "1.1.0",
+          "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
           "Xamarin.CustomControls.AccordionView": "1.1.6",
           "Xamarin.Essentials": "1.2.0-pre",
           "Xamarin.Forms": "4.1.0.496342-pre2",
@@ -976,6 +977,17 @@
           }
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.496342-pre2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Xamarin.CustomControls.AccordionView/1.1.6": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
@@ -1701,6 +1713,13 @@
       "sha512": "sha512-UPib0z0DnsQrl3FtK59E7WTk/jPex+tAHRYrXpm6lFCe/PcgtgO5W9YG03zTGuoWdiPISNaeqncWshbcOYt4Hw==",
       "path": "xam.plugin.popupmenu/1.1.0",
       "hashPath": "xam.plugin.popupmenu.1.1.0.nupkg.sha512"
+    },
+    "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E/r5CJm6gV2duE25pJEOEorkAS6xBcBoJ82zbJjynnKwIUPoPofDyO2pOec4DxqZoTulRtUVw62y2PjAfGh5bQ==",
+      "path": "xam.plugins.forms.imagecircle/3.1.1.1-beta",
+      "hashPath": "xam.plugins.forms.imagecircle.3.1.1.1-beta.nupkg.sha512"
     },
     "Xamarin.CustomControls.AccordionView/1.1.6": {
       "type": "package",

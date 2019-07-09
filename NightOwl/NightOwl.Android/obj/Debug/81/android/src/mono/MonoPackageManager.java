@@ -113,6 +113,7 @@ class MonoPackageManager_Resources {
 		"NightOwl.Android.dll",
 		"ExpandableView.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.dll",
 		"Microsoft.AspNetCore.Http.Abstractions.dll",
 		"Microsoft.AspNetCore.Http.Extensions.dll",
 		"Microsoft.AspNetCore.Http.Features.dll",

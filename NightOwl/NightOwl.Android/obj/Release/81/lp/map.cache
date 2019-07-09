@@ -1,5 +1,6 @@
 ExpandableView
 FormsViewGroup
+ImageCircle.Forms.Plugin
 Microsoft.AspNetCore.Http.Abstractions
 Microsoft.AspNetCore.Http.Extensions
 Microsoft.AspNetCore.Http.Features
@@ -57,7 +58,3 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-netstandard
-System.Reflection.Extensions
-System.Resources.ResourceManager
-System.Diagnostics.Tools

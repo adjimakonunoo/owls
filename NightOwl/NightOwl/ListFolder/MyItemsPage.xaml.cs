@@ -16,5 +16,16 @@ namespace NightOwl.ListFolder
         {
             InitializeComponent();
         }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var vm = BindingContext as MyItemsView;
+            var myItem = e.Item as MyItemsClass;
+
+            vm.HideorShow(myItem);
+
+        }
+
+       
     }
 }

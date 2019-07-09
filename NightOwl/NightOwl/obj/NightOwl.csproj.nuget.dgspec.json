@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.1.1.1-beta, )"
+            },
             "Xamarin.CustomControls.AccordionView": {
               "target": "Package",
               "version": "[1.1.6, )"

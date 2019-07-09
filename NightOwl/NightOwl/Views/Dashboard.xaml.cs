@@ -21,14 +21,16 @@ namespace NightOwl.Views
             InitializeComponent();
             menuList = new List<MasterPageItem>();
 
-            var page1 = new MasterPageItem() { Title = "About Us", Icon = "bird.png", TargetType = typeof(About_Us) };
-            var page2 = new MasterPageItem() { Title = "Terms&Conditions", Icon = "test.png", TargetType = typeof(Terms_and_Conditions) };
+            var page1 = new MasterPageItem() { Title = "About Us", Icon = "aboutus.png", TargetType = typeof(About_Us) };
+            var page2 = new MasterPageItem() { Title = "Terms&Conditions", Icon = "TermsAndConditions1.png", TargetType = typeof(Terms_and_Conditions) };
             var page3 = new MasterPageItem() { Title = "Agent Poll", Icon = "yea.png", TargetType = typeof(AgentPoll) };
+            var page4 = new MasterPageItem() { Title = "My Account", Icon = "accounts.png", TargetType = typeof(AccountsPage) };
 
 
             menuList.Add(page1);
             menuList.Add(page2);
             menuList.Add(page3);
+            menuList.Add(page4);
 
 
             DrawerList.ItemsSource = menuList;

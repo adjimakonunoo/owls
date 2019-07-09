@@ -900,6 +900,18 @@
           "lib/Xamarin.iOS10/Xam.Plugin.iOS.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.CustomControls.AccordionView/1.1.6": {
         "type": "package",
         "dependencies": {
@@ -1090,6 +1102,7 @@
           "System.Net.WebSockets.Client": "4.3.2",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugin.PopupMenu": "1.1.0",
+          "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
           "Xamarin.CustomControls.AccordionView": "1.1.6",
           "Xamarin.Essentials": "1.2.0-pre",
           "Xamarin.Forms": "4.1.0.496342-pre2"
@@ -1927,6 +1940,18 @@
           "lib/Xamarin.iOS10/Xam.Plugin.iOS.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.CustomControls.AccordionView/1.1.6": {
         "type": "package",
         "dependencies": {
@@ -2117,6 +2142,7 @@
           "System.Net.WebSockets.Client": "4.3.2",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugin.PopupMenu": "1.1.0",
+          "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
           "Xamarin.CustomControls.AccordionView": "1.1.6",
           "Xamarin.Essentials": "1.2.0-pre",
           "Xamarin.Forms": "4.1.0.496342-pre2"
@@ -2954,6 +2980,18 @@
           "lib/Xamarin.iOS10/Xam.Plugin.iOS.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.CustomControls.AccordionView/1.1.6": {
         "type": "package",
         "dependencies": {
@@ -3144,6 +3182,7 @@
           "System.Net.WebSockets.Client": "4.3.2",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugin.PopupMenu": "1.1.0",
+          "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
           "Xamarin.CustomControls.AccordionView": "1.1.6",
           "Xamarin.Essentials": "1.2.0-pre",
           "Xamarin.Forms": "4.1.0.496342-pre2"
@@ -3981,6 +4020,18 @@
           "lib/Xamarin.iOS10/Xam.Plugin.iOS.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.CustomControls.AccordionView/1.1.6": {
         "type": "package",
         "dependencies": {
@@ -4171,6 +4222,7 @@
           "System.Net.WebSockets.Client": "4.3.2",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugin.PopupMenu": "1.1.0",
+          "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
           "Xamarin.CustomControls.AccordionView": "1.1.6",
           "Xamarin.Essentials": "1.2.0-pre",
           "Xamarin.Forms": "4.1.0.496342-pre2"
@@ -7841,6 +7893,39 @@
         "xam.plugin.popupmenu.nuspec"
       ]
     },
+    "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+      "sha512": "E/r5CJm6gV2duE25pJEOEorkAS6xBcBoJ82zbJjynnKwIUPoPofDyO2pOec4DxqZoTulRtUVw62y2PjAfGh5bQ==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.1.1.1-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.pdb",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/monoandroid80/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid80/ImageCircle.Forms.Plugin.pdb",
+        "lib/monoandroid80/ImageCircle.Forms.Plugin.xml",
+        "lib/monoandroid81/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid81/ImageCircle.Forms.Plugin.pdb",
+        "lib/monoandroid81/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.pdb",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pdb",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.pdb",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinmac20/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinmac20/ImageCircle.Forms.Plugin.pdb",
+        "lib/xamarinmac20/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.1.1.1-beta.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
+      ]
+    },
     "Xamarin.CustomControls.AccordionView/1.1.6": {
       "sha512": "m+4aDFEa5pJQgCkogTSgTB5NWBYwEeZ4NX+JWbp0s6jCgHu9kviXuT1B8jFC+Vzaewaf9HKKR+WLnXGiCRAGUQ==",
       "type": "package",
@@ -8189,6 +8274,7 @@
       "Websockets.Pcl >= 1.1.9",
       "Xam.Plugin.Connectivity >= 4.0.0.190-beta",
       "Xam.Plugin.PopupMenu >= 1.1.0",
+      "Xam.Plugins.Forms.ImageCircle >= 3.1.1.1-beta",
       "Xamarin.CustomControls.AccordionView >= 1.1.6",
       "Xamarin.Essentials >= 1.2.0-pre",
       "Xamarin.Forms >= 4.1.0.496342-pre2"
@@ -8289,6 +8375,10 @@
           "Xam.Plugin.PopupMenu": {
             "target": "Package",
             "version": "[1.1.0, )"
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.1.1.1-beta, )"
           },
           "Xamarin.CustomControls.AccordionView": {
             "target": "Package",
