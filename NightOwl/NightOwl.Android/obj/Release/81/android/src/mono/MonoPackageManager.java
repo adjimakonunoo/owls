@@ -110,6 +110,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "NightOwl.Android.dll" comes first in this list. */
+		"NightOwl.Android.dll",
 		"ExpandableView.dll",
 		"FormsViewGroup.dll",
 		"ImageCircle.Forms.Plugin.dll",
@@ -128,6 +129,7 @@ class MonoPackageManager_Resources {
 		"MonkeyCache.dll",
 		"MonkeyCache.FileStore.dll",
 		"Newtonsoft.Json.dll",
+		"NightOwl.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",
 		"Rg.Plugins.Popup.dll",

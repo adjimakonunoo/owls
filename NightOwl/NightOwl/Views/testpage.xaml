@@ -26,31 +26,21 @@
                             <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
                         </OnIdiom>
                     </StackLayout.Padding>
-
-
-                    <!--<Frame HasShadow="True" BackgroundColor="AliceBlue">
+                    <Frame HasShadow="True" BackgroundColor="AliceBlue">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Button_Clicked" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
                         <Label HorizontalOptions="FillAndExpand" Text="Find out what's here"
                                FontSize="Medium"/>
-
-
-                    </Frame>-->
-
-                    <Grid  RowSpacing="0">
+                    </Frame>
+                    <Grid  RowSpacing="0" >
                         <Grid.RowDefinitions>
-
                             <RowDefinition Height="*" />
-
                         </Grid.RowDefinitions>
-
                         <!--  row background colors  -->
-
+                        
                         <BoxView Grid.Row="0" Color="#F1F2F2" />
-
-
-
+                        
                         <!--  inner grid for button layouts  -->
                         <Grid Grid.Row="0" ColumnSpacing="20" HorizontalOptions="Center"
               RowSpacing="-30" VerticalOptions="Center" BackgroundColor="AliceBlue">
@@ -83,7 +73,7 @@
                                     <TapGestureRecognizer Tapped="ShoppingButtonTapped" />
                                 </controls:SwitchboardButton.GestureRecognizers>
                             </controls:SwitchboardButton>
-
+                            
                             <controls:SwitchboardButton Grid.Row="1" Grid.Column="1" Icon="money.png"
                                         Label="My Accounts">
                                 <controls:SwitchboardButton.GestureRecognizers>

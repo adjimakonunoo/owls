@@ -49,6 +49,7 @@ namespace NightOwl.Views
         private void Button_Clicked(object sender, EventArgs e)
         {
             PopupNavigation.Instance.PushAsync(new ShowPopup(), true);
+
         }
 
         protected override bool OnBackButtonPressed()

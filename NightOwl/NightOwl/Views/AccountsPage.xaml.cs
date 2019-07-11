@@ -17,9 +17,6 @@ namespace NightOwl.Views
             InitializeComponent();
         }
 
-         void Home_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new Dashboard(), true);
-        }
+       
     }
 }

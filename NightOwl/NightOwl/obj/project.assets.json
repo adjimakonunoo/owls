@@ -1412,7 +1412,7 @@
           "lib/netstandard1.0/Xamarin.CustomControls.StateButton.dll": {}
         }
       },
-      "Xamarin.Essentials/1.2.0-pre": {
+      "Xamarin.Essentials/1.3.0-pre": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1424,7 +1424,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.496342-pre2": {
+      "Xamarin.Forms/4.1.0.581479": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -5132,10 +5132,10 @@
         "xamarin.customcontrols.statebutton.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.2.0-pre": {
-      "sha512": "uOt+FeYlD8mKk+ihV45OTuQnzrnRe+8qRUZ4RAqcxBTC29cKqXcpG6TrPOWYWb5l3nuWaCSX22wpX6Hrmufh5w==",
+    "Xamarin.Essentials/1.3.0-pre": {
+      "sha512": "9KcD4wuMCkVBTgI/KBNn+7dOvg+i/CucTu5qxd3ur0kgs7aGJSilxYbHi1B9b8fjQ14dlDHG9mX0Ai6p7RLEfw==",
       "type": "package",
-      "path": "xamarin.essentials/1.2.0-pre",
+      "path": "xamarin.essentials/1.3.0-pre",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5163,6 +5163,9 @@
         "lib/netstandard2.0/Xamarin.Essentials.dll",
         "lib/netstandard2.0/Xamarin.Essentials.pdb",
         "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
         "lib/uap10.0.16299/Xamarin.Essentials.dll",
         "lib/uap10.0.16299/Xamarin.Essentials.pdb",
         "lib/uap10.0.16299/Xamarin.Essentials.pri",
@@ -5170,15 +5173,21 @@
         "lib/xamarinios10/Xamarin.Essentials.dll",
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.2.0-pre.nupkg.sha512",
+        "xamarin.essentials.1.3.0-pre.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.1.0.496342-pre2": {
-      "sha512": "Ko6mqrDmPOMEAF3LTf0FxJF/5mYVDq1rUx3WLOPIvQ5EfzqJjVMMDlOtJLBu6yFLs6UYQ46xOvtsUTclKr5uTQ==",
+    "Xamarin.Forms/4.1.0.581479": {
+      "sha512": "wrO8AOW1xsFoGgT1SUvJ9OEeqAduJOm0xezZGNe0rCiAv2N9Qc/n5uywhlSia1s1k+Zy/hOrhZ4b7/EM6z9oog==",
       "type": "package",
-      "path": "xamarin.forms/4.1.0.496342-pre2",
+      "path": "xamarin.forms/4.1.0.581479",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5398,6 +5407,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
@@ -5416,7 +5426,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.1.0.496342-pre2.nupkg.sha512",
+        "xamarin.forms.4.1.0.581479.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -5439,8 +5449,8 @@
       "Xam.Plugin.PopupMenu >= 1.1.0",
       "Xam.Plugins.Forms.ImageCircle >= 3.1.1.1-beta",
       "Xamarin.CustomControls.AccordionView >= 1.1.6",
-      "Xamarin.Essentials >= 1.2.0-pre",
-      "Xamarin.Forms >= 4.1.0.496342-pre2"
+      "Xamarin.Essentials >= 1.3.0-pre",
+      "Xamarin.Forms >= 4.1.0.581479"
     ]
   },
   "packageFolders": {
@@ -5557,11 +5567,11 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.2.0-pre, )"
+            "version": "[1.3.0-pre, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.1.0.496342-pre2, )"
+            "version": "[4.1.0.581479, )"
           }
         },
         "imports": [

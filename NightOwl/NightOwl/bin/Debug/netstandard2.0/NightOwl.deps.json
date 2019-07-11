@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "da670800caaa2ec6c186d1889b762c414711580a"
+    "signature": "b1360a1c69d00236508605a5c37969f685aaabad"
   },
   "compilationOptions": {},
   "targets": {
@@ -25,8 +25,8 @@
           "Xam.Plugin.PopupMenu": "1.1.0",
           "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
           "Xamarin.CustomControls.AccordionView": "1.1.6",
-          "Xamarin.Essentials": "1.2.0-pre",
-          "Xamarin.Forms": "4.1.0.496342-pre2",
+          "Xamarin.Essentials": "1.3.0-pre",
+          "Xamarin.Forms": "4.1.0.581479",
           "Mono.Android": "0.0.0.0"
         },
         "runtime": {
@@ -35,7 +35,7 @@
       },
       "ExpandableView/1.0.9": {
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.496342-pre2"
+          "Xamarin.Forms": "4.1.0.581479"
         },
         "runtime": {
           "lib/netstandard2.0/ExpandableView.dll": {
@@ -261,7 +261,7 @@
       },
       "Rg.Plugins.Popup/1.1.5.188": {
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.496342-pre2"
+          "Xamarin.Forms": "4.1.0.581479"
         },
         "runtime": {
           "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
@@ -968,7 +968,7 @@
       },
       "Xam.Plugin.PopupMenu/1.1.0": {
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.496342-pre2"
+          "Xamarin.Forms": "4.1.0.581479"
         },
         "runtime": {
           "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xam.Plugin.dll": {
@@ -979,7 +979,7 @@
       },
       "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.496342-pre2"
+          "Xamarin.Forms": "4.1.0.581479"
         },
         "runtime": {
           "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {
@@ -992,7 +992,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.CustomControls.StateButton": "1.1.0",
-          "Xamarin.Forms": "4.1.0.496342-pre2"
+          "Xamarin.Forms": "4.1.0.581479"
         },
         "runtime": {
           "lib/netstandard1.0/Xamarin.CustomControls.AccordionView.dll": {
@@ -1004,7 +1004,7 @@
       "Xamarin.CustomControls.StateButton/1.1.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "4.1.0.496342-pre2"
+          "Xamarin.Forms": "4.1.0.581479"
         },
         "runtime": {
           "lib/netstandard1.0/Xamarin.CustomControls.StateButton.dll": {
@@ -1013,7 +1013,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.2.0-pre": {
+      "Xamarin.Essentials/1.3.0-pre": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -1024,19 +1024,19 @@
           }
         }
       },
-      "Xamarin.Forms/4.1.0.496342-pre2": {
+      "Xamarin.Forms/4.1.0.581479": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.1.0.219"
+            "fileVersion": "4.1.0.287"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.1.0.219"
+            "fileVersion": "4.1.0.287"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.1.0.219"
+            "fileVersion": "4.1.0.287"
           }
         }
       },
@@ -1735,19 +1735,19 @@
       "path": "xamarin.customcontrols.statebutton/1.1.0",
       "hashPath": "xamarin.customcontrols.statebutton.1.1.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.2.0-pre": {
+    "Xamarin.Essentials/1.3.0-pre": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uOt+FeYlD8mKk+ihV45OTuQnzrnRe+8qRUZ4RAqcxBTC29cKqXcpG6TrPOWYWb5l3nuWaCSX22wpX6Hrmufh5w==",
-      "path": "xamarin.essentials/1.2.0-pre",
-      "hashPath": "xamarin.essentials.1.2.0-pre.nupkg.sha512"
+      "sha512": "sha512-9KcD4wuMCkVBTgI/KBNn+7dOvg+i/CucTu5qxd3ur0kgs7aGJSilxYbHi1B9b8fjQ14dlDHG9mX0Ai6p7RLEfw==",
+      "path": "xamarin.essentials/1.3.0-pre",
+      "hashPath": "xamarin.essentials.1.3.0-pre.nupkg.sha512"
     },
-    "Xamarin.Forms/4.1.0.496342-pre2": {
+    "Xamarin.Forms/4.1.0.581479": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ko6mqrDmPOMEAF3LTf0FxJF/5mYVDq1rUx3WLOPIvQ5EfzqJjVMMDlOtJLBu6yFLs6UYQ46xOvtsUTclKr5uTQ==",
-      "path": "xamarin.forms/4.1.0.496342-pre2",
-      "hashPath": "xamarin.forms.4.1.0.496342-pre2.nupkg.sha512"
+      "sha512": "sha512-wrO8AOW1xsFoGgT1SUvJ9OEeqAduJOm0xezZGNe0rCiAv2N9Qc/n5uywhlSia1s1k+Zy/hOrhZ4b7/EM6z9oog==",
+      "path": "xamarin.forms/4.1.0.581479",
+      "hashPath": "xamarin.forms.4.1.0.581479.nupkg.sha512"
     },
     "Mono.Android/0.0.0.0": {
       "type": "reference",

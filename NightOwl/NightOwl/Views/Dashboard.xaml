@@ -2,17 +2,25 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                 x:Class="NightOwl.Views.Dashboard"
-                  xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
+                  xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+                  xmlns:local="clr-namespace:NightOwl.Views">
+    
     <MasterDetailPage.Master>
+        
         <ContentPage Title="Menu">
+            <ContentPage.BindingContext>
+                <local:testview/>
+            </ContentPage.BindingContext>
             <StackLayout Orientation="Vertical">
                 <StackLayout.Children>
                     <!--<Label Text="{Binding Header}" ></Label>-->
+                    
                     <Grid>
+                        
                     <Image Source="AquaBlue" Aspect="AspectFill" />
-                    <StackLayout Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                        <controls:CircleImage BorderColor="White" BorderThickness="2" Source="emmanuel.png" Aspect="AspectFill" WidthRequest="85" HeightRequest="85" />
-                        <Label Text="Emmanuel" TextColor="White" FontSize="Large" />
+                    <StackLayout  Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <controls:CircleImage BorderColor="White" BorderThickness="2" Source="" Aspect="AspectFill" WidthRequest="85" HeightRequest="85" />
+                        <Label Text="{Binding Mytest.title}" TextColor="White" FontSize="Large" />
                     </StackLayout>
                     </Grid>
                     <Label Text="{Binding Footer}" HorizontalOptions="Center" FontSize="Large" FontAttributes="Italic"></Label>
