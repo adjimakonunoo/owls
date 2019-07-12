@@ -15,6 +15,7 @@ namespace NightOwl.Views
         public MyTestShell()
         {
             InitializeComponent();
+            
         }
     }
 }
