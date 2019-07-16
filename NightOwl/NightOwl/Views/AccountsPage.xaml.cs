@@ -12,19 +12,12 @@ namespace NightOwl.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AccountsPage : ContentPage
     {
-        public List<string> MyList { get; set; }
+       
         public AccountsPage()
         {
             InitializeComponent();
 
-            MyList = new List<string>()
-            {
-                "hello",
-                "hi",
-                "hey"
-            };
-
-            list.ItemsSource = MyList;
+            
         }
 
        

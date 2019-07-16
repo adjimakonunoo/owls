@@ -12,7 +12,7 @@
         <Button BackgroundColor="DodgerBlue"
                     Text="Update Profile" TextColor="White"/>
         <Button BackgroundColor="DodgerBlue"
-                    Text="Try" TextColor="White"/>
+                    Text="Try" Clicked="Button_Clicked" TextColor="White"/>
   
    
         

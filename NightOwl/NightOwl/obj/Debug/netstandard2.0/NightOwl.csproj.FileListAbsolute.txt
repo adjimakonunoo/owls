@@ -1,10 +1,6 @@
 D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\NightOwl.deps.json
 D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\NightOwl.dll
 D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\NightOwl.pdb
-D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\Mono.Android.dll
-D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\Mono.Android.pdb
-D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\Mono.Android.xml
-D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.csprojAssemblyReference.cache
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\ListFolder\MyItemsPage.xaml.g.cs
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
@@ -24,6 +20,7 @@ D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.csproj.CoreComp
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.AssemblyInfoInputs.cache
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.AssemblyInfo.cs
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\XamlC.stamp
-D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.csproj.CopyComplete
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.dll
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.pdb
+D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.csprojAssemblyReference.cache
+D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs

@@ -18,37 +18,38 @@ namespace NightOwl
         public LoginPage()
         {
             InitializeComponent();
-            init();
+            //init();
 
-
-            this.BindingContext = this;
+            BindingContext = new LoginViewModel();
+            /*this.BindingContext = this;
             this.IsBusy = false;
-            Btn_SignIn.Clicked += SignInProcedure;
+           Btn_SignIn.Clicked += SignInProcedure;*/
+            BackgroundColor = Constants.BackgroundColor;
         }
-        void init()
+        /*void init()
         {
             BackgroundColor = Constants.BackgroundColor;
-            Lbl_Username.TextColor = Constants.MainTextColor;
+           /Lbl_Username.TextColor = Constants.MainTextColor;
             Lbl_Password.TextColor = Constants.MainTextColor;
 
 
             Entry_Username.Completed += (s, e) => Entry_Password.Focus();
             Entry_Password.Completed += (s, e) => SignInProcedure(s, e);
 
-        }
+        }*/
         
-         void SignInProcedure(object sender, EventArgs e)
-        {
-            this.IsBusy = true;
+        // void SignInProcedure(object sender, EventArgs e)
+        //{
+            /*this.IsBusy = true;
 
-            User user = new User(Entry_Username.Text, Entry_Password.Text);
+            User user = new User(Entry_Username.Text, Entry_Password.Text);*/
 
             // if (user.CheckInformation())
             //{
 
             //Navigation.PushModalAsync(new Dashboard(), true);
 
-            Application.Current.MainPage = new MyTestShell();
+           // Application.Current.MainPage = new MyTestShell();
             
             /* }
              else
@@ -56,17 +57,13 @@ namespace NightOwl
                  DisplayAlert("Login", "Username or Password incorrect", "Ok");
                  this.IsBusy = false;
              }*/
-        }
+       // }
     
          void RegisterProcedure(object sender, EventArgs e)
         {
              Navigation.PushAsync(new RegistrationPage(), true);
         }
 
-        private void Clear_Clicked(object sender, EventArgs e)
-        {
-            Entry_Username.Text = "";
-            Entry_Password.Text = "";
-        }
+       
     }
 }

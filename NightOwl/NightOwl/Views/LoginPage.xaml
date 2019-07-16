@@ -42,27 +42,28 @@
                         <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
                 </OnIdiom>
             </StackLayout.Padding>
-                <Label x:Name="Lbl_Username" Text="Username"></Label>
-                <Entry x:Name="Entry_Username" Placeholder="Username"
+                <Label  Text="Username" IsVisible="{Binding IsVisible}"></Label>
+                <Entry Placeholder="Username" Text="{Binding Name}"
                        Style="{StaticResource EntryLabel}"></Entry>
-                <Label x:Name="Lbl_Password" Text="Password"></Label>
-                <Entry x:Name="Entry_Password" Placeholder="Password" 
+                <Label Text="Password" IsVisible="{Binding IsVisible}" ></Label>
+                <Entry Text="{Binding Password}" Placeholder="Password"
                        IsPassword="True" IsTextPredictionEnabled="False"
                        IsSpellCheckEnabled="False" Style="{StaticResource EntryLabel}"></Entry>
+                <Label Text="{Binding Mytest}"/>
 
                 <Grid x:Name="buttonsGrid" Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Button x:Name="Btn_SignIn" Text="Sign In" Clicked="SignInProcedure" 
+                    <Button Text="Sign In" Command="{Binding LoginCommand}"
                     Style="{StaticResource buttonStyle}" 
                             Grid.Column="0"></Button>
                     <Button x:Name="Btn_Register" Text="Register" Clicked="RegisterProcedure" 
                             Style="{StaticResource buttonStyle}"
                             Grid.Column="1"></Button>
                 </Grid>
-                <ActivityIndicator x:Name="indicator" IsRunning="{Binding IsBusy}"
+                <ActivityIndicator  IsRunning="{Binding IsBusy}"
                                        VerticalOptions="Center" HorizontalOptions="Center" Color="Blue">
                 </ActivityIndicator>
             </StackLayout>

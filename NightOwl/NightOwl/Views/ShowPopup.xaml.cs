@@ -24,5 +24,14 @@ namespace NightOwl.Views
             Navigation.PushModalAsync(new NavigationPage (new AccountsPage()), true);
             PopupNavigation.Instance.PopAsync(true);  
         }
+
+         void Button_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Device.OpenUri(new Uri("https://www.google.com"));
+            }
+            catch { }
+        }
     }
 }

@@ -2,6 +2,14 @@
 <Devices>
   <Device id="emulator-5554">
     <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>28</SdkVersion>
+  </Device>
+  <Device id="emulator-5556">
+    <ResultingAbi>x86</ResultingAbi>
     <SdkVersion>27</SdkVersion>
+  </Device>
+  <Device id="0260610770303889">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>24</SdkVersion>
   </Device>
 </Devices>
