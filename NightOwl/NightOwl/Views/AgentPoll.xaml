@@ -12,7 +12,7 @@
 
         </StackLayout>
     </NavigationPage.TitleView>
-    
+    <ScrollView>
         <StackLayout x:Name="MasterStack">
         <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
             <Image x:Name="BirdLogo" Source="bird.png" ></Image>
@@ -42,7 +42,9 @@
             <Button Text="Call" Clicked="Call_Clicked" Grid.Column="0"/>
                 <Button Text="Send Email" Clicked="Email_Clicked" Grid.Column="1"/>
             </Grid>
-
+            
         </StackLayout>
+        <Button x:Name="addFrame" Text="AddFrame" Clicked="AddFrame_Clicked"/>
     </StackLayout>
+    </ScrollView>
 </ContentPage>

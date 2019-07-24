@@ -33,5 +33,16 @@ namespace NightOwl.Views
             var message = new EmailMessage(agentemmanuel.Text, "", emailer.Text);
             await Email.ComposeAsync(message);
         }
+
+        private void AddFrame_Clicked(object sender, EventArgs e)
+        {
+            var frame = new Frame
+            {
+                Content = new Label { Text = "hi" },
+                BorderColor = Color.DodgerBlue,
+                HorizontalOptions = LayoutOptions.Center
+            };
+            MasterStack.Children.Add(frame);
+        }
     }
 }

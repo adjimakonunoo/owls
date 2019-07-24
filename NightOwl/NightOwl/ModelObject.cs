@@ -8,10 +8,9 @@ namespace NightOwl
 {
     public class ModelObject : INotifyPropertyChanged
     {
-
         public event PropertyChangedEventHandler PropertyChanged;
 
-       protected void OnPropertyChanged([CallerMemberName] string name = "")
+        protected void OnPropertyChanged([CallerMemberName] string name="")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
