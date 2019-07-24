@@ -21,6 +21,28 @@
             <Label Text="Welcome to Agent Poll"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Frame Padding="0" BackgroundColor="DodgerBlue">
+                <Grid Padding="15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                <Label Text="Emmanuel" Grid.Column="0" TextColor="White"/>
+                <Label Text="0545331451" x:Name="phonecall" Grid.Column="1" TextColor="White"/>
+                    <Label Text="ntiamoahemmanuel244@gmail.com" x:Name="emailer" Grid.Column="2" TextColor="White"/>
+                    <Label Text="Hello Agent Emmanuel" x:Name="agentemmanuel" IsVisible="False"/>
+                </Grid>
+            </Frame>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            <Button Text="Call" Clicked="Call_Clicked" Grid.Column="0"/>
+                <Button Text="Send Email" Clicked="Email_Clicked" Grid.Column="1"/>
+            </Grid>
+
         </StackLayout>
     </StackLayout>
 </ContentPage>

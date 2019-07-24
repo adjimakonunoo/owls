@@ -8,24 +8,18 @@ using System.Threading.Tasks;
 
 namespace NightOwl.Views
 {
-    public class LoginViewModel : INotifyPropertyChanged
+    public class LoginViewModel : ModelObject
     {
         public LoginViewModel()
         {
             LoginCommand = new Command(Login, ()=> !IsBusy);
+            RegisterCommand = new Command(Register, ()=> !IsBusy);
         }
         string name = string.Empty;
         string password = string.Empty;
 
         bool isBusy;
         bool isVisible;
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        void OnPropertyChanged([CallerMemberName] string name = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
         public string Name
         {
             get { return name; }
@@ -75,18 +69,37 @@ namespace NightOwl.Views
             {
                 isBusy = true;
                 OnPropertyChanged();
+                LoginCommand.ChangeCanExecute();
+                RegisterCommand.ChangeCanExecute();
             }
         }
         public Command LoginCommand { get; }
         public Command RegisterCommand { get; }
         void Login()
         {
-            Application.Current.MainPage = new MyTestShell();
-        }
+            /* User user = new User(Entry_Username.Text, Entry_Password.Text); 
 
-        /*void Register()
+               if (user.CheckInformation())
+            { */
+            Application.Current.MainPage = new MyTestShell();
+
+        /*}
+        else
         {
-            Navigation.PushAsync(new RegistrationPage(), true);
-        }*/
+         DisplayAlert("Login", "Username or Password incorrect", "Ok");*/
+    }
+      // public INavigation Navigation { get; set; }
+         void Register()
+        {
+            try
+            {
+                Application.Current.MainPage = new NavigationPage(new RegistrationPage());
+                
+            }
+            catch(Exception e)
+            {
+                System.Diagnostics.Debug.WriteLine(e);
+            }
+        }
     }
 }

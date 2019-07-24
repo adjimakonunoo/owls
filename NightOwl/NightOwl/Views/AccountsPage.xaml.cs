@@ -16,10 +16,20 @@ namespace NightOwl.Views
         public AccountsPage()
         {
             InitializeComponent();
-
             
+            BindingContext = new GridViewModel();
         }
 
-       
+        private void Search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var _container = BindingContext as GridViewModel;
+            DummyList.BeginRefresh();
+
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                DummyList.ItemsSource = _container.DummyData;
+            else
+                DummyList.ItemsSource = _container.DummyData.Where(i => i.LASTNAME.ToLower().Contains(e.NewTextValue.ToLower()));
+            DummyList.EndRefresh();
+        }
     }
 }

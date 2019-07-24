@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            
              x:Class="NightOwl.Views.AccountsPage">
 
     <NavigationPage.TitleView>
@@ -14,13 +15,63 @@
         </StackLayout>
     </NavigationPage.TitleView>
     
-    <StackLayout>
-        
-            <Label Text="Welcome to Accounts Section!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout Padding="20" Spacing="0">
+        <SearchBar x:Name="Search" TextChanged="Search_TextChanged" />
+        <Frame BackgroundColor="PaleTurquoise" BorderColor="DodgerBlue" Padding="0">
+            <Grid Padding="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-      
+                <Label Margin="10,0,10,10" Text="First Name" VerticalOptions="Center" Grid.Column="0" />
+                <Label Margin="10,0,10,10" Text="Last Name" VerticalOptions="Center" Grid.Column="1" />
+                <Label Margin="10,0,10,10" Text="Age" VerticalOptions="Center" Grid.Column="2" />
+                <Label Margin="10,0,10,10" Text="Favourite" VerticalOptions="Center" Grid.Column="3" />
+
+
+                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+            </Grid>
+        </Frame>
+       
+        <ListView x:Name="DummyList" ItemsSource="{Binding DummyData}" SeparatorVisibility="None" SelectionMode="Single"  HasUnevenRows="False">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Padding="0" BorderColor="DodgerBlue">
+                            <Grid Padding="0" RowSpacing="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Margin="10,0,10,0" Text="{Binding FIRSTNAME}" VerticalOptions="Center" Grid.Column="0"/>
+                                <Label Margin="10,0,10,0" Text="{Binding LASTNAME}" VerticalOptions="Center" Grid.Column="1"/>
+                                <Label Margin="10,0,10,0" Text="{Binding AGE}" VerticalOptions="Center" Grid.Column="2"/>
+                                <Label Margin="10,0,10,0" Text="{Binding FAVOURITE}" VerticalOptions="Center" Grid.Column="3"/>
+
+                                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                <BoxView BackgroundColor="DodgerBlue" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                            </Grid>
+                        </Frame> 
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            <!--<Label Text="Welcome to Accounts Section!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+
+       <Button Text="Add" Command="{Binding AddCommand}"/>
     </StackLayout>
     
         

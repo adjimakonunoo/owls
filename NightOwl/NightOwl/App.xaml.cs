@@ -25,11 +25,12 @@ namespace NightOwl
 
             //AppCenter.Start("2dd16cff-9b51-4f8c-a664-365eddc7d6ac", typeof(Push));
             //MainPage = new NavigationPage (new LoginPage());
-            MainPage = new LoginPage();
-           // MainPage = new Page1();
+             MainPage = new LoginPage();
+           
+           
            
         }
-
+       
         protected override void OnStart()
         {
             // Handle when your app starts

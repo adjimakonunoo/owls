@@ -30,6 +30,7 @@
     </ContentPage.Resources>
     
     <ScrollView>
+        
         <StackLayout x:Name="MasterStack">
 
             <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
@@ -59,7 +60,7 @@
                     <Button Text="Sign In" Command="{Binding LoginCommand}"
                     Style="{StaticResource buttonStyle}" 
                             Grid.Column="0"></Button>
-                    <Button x:Name="Btn_Register" Text="Register" Clicked="RegisterProcedure" 
+                    <Button Text="Register" Command="{Binding RegisterCommand}" 
                             Style="{StaticResource buttonStyle}"
                             Grid.Column="1"></Button>
                 </Grid>

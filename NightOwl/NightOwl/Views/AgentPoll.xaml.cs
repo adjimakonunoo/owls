@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -20,6 +21,17 @@ namespace NightOwl.Views
         void Init()
         {
             BackgroundColor = Constants.BackgroundColor;
+        }
+
+        private void Call_Clicked(object sender, EventArgs e)
+        {
+            PhoneDialer.Open(phonecall.Text);
+        }
+
+        private async void Email_Clicked(object sender, EventArgs e)
+        {
+            var message = new EmailMessage(agentemmanuel.Text, "", emailer.Text);
+            await Email.ComposeAsync(message);
         }
     }
 }

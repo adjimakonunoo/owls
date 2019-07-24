@@ -23,4 +23,3 @@ D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.dll
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.pdb
 D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\NightOwl.csprojAssemblyReference.cache
-D:\Workspace\NightOwl\NightOwl\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs

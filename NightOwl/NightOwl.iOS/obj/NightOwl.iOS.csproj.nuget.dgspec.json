@@ -42,6 +42,14 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[19.1.4, )"
+            },
+            "DevExpress.Mobile.Grid": {
+              "target": "Package",
+              "version": "[18.2.3, )"
+            },
             "ExpandableView": {
               "target": "Package",
               "version": "[1.0.9, )"
@@ -110,7 +118,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.2.0.608146-pre1, )"
             }
           }
         }
@@ -166,6 +174,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[19.1.4, )"
+            },
+            "DevExpress.Mobile.Grid": {
+              "target": "Package",
+              "version": "[18.2.3, )"
+            },
             "ExpandableView": {
               "target": "Package",
               "version": "[1.0.9, )"
@@ -240,7 +256,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.2.0.608146-pre1, )"
             }
           },
           "imports": [

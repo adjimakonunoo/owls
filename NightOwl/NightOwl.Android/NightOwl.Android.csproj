@@ -69,6 +69,12 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="DevExpress.Data">
+      <Version>19.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.Mobile.Grid">
+      <Version>18.2.3</Version>
+    </PackageReference>
     <PackageReference Include="ExpandableView">
       <Version>1.0.9</Version>
     </PackageReference>
@@ -116,7 +122,7 @@
     <PackageReference Include="Xamarin.CustomControls.AccordionView">
       <Version>1.1.6</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.1.0.581479" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.608146-pre1" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.1" />

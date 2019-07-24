@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NightOwl</id>
+    <version>1.0.0</version>
+    <authors>NightOwl</authors>
+    <owners>NightOwl</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="DevExpress.Data" version="19.1.4" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Mobile.Grid" version="18.2.3" exclude="Build,Analyzers" />
+        <dependency id="ExpandableView" version="1.0.9" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.WebSockets" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Bcl.Build" version="1.0.14" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.6.0-preview6.19303.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="3.0.0-preview6.19304.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Net.Http" version="2.2.29" exclude="Build,Analyzers" />
+        <dependency id="MonkeyCache.FileStore" version="1.3.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.2" exclude="Build,Analyzers" />
+        <dependency id="Rg.Plugins.Popup" version="1.1.5.188" exclude="Build,Analyzers" />
+        <dependency id="System.Net.WebSockets.Client" version="4.3.2" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugin.Connectivity" version="4.0.0.190-beta" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugin.PopupMenu" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugins.Forms.ImageCircle" version="3.1.1.1-beta" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.CustomControls.AccordionView" version="1.1.6" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.3.0-pre" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.2.0.608146-pre1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Workspace\NightOwl\NightOwl\bin\Debug\netstandard2.0\NightOwl.dll" target="lib\netstandard2.0\NightOwl.dll" />
+  </files>
+</package>

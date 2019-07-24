@@ -15,7 +15,7 @@ namespace NightOwl.Views
         public MyTestShell()
         {
             InitializeComponent();
-            
+            BindingContext = new LoginViewModel();
         }
     }
 }
