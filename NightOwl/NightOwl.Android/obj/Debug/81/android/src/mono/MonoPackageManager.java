@@ -117,6 +117,7 @@ class MonoPackageManager_Resources {
 		"DevExpress.Mobile.Grid.Android.v18.2.dll",
 		"DevExpress.Mobile.Grid.v18.2.dll",
 		"ExpandableView.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"ImageCircle.Forms.Plugin.dll",
 		"Microsoft.AspNetCore.Http.Abstractions.dll",
@@ -144,6 +145,9 @@ class MonoPackageManager_Resources {
 		"NightOwl.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",
+		"Plugin.Fingerprint.Abstractions.dll",
+		"Plugin.Fingerprint.Android.Samsung.dll",
+		"Plugin.Fingerprint.dll",
 		"Rg.Plugins.Popup.dll",
 		"Rg.Plugins.Popup.Droid.dll",
 		"System.Net.Http.Extensions.dll",
@@ -180,6 +184,11 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"ZXing.Net.Mobile.Core.dll",
+		"ZXing.Net.Mobile.Forms.Android.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"zxing.portable.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

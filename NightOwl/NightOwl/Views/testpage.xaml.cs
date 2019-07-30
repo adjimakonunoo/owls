@@ -19,7 +19,10 @@ namespace NightOwl.Views
         {
             InitializeComponent();
             init();
+            
         }
+
+       
         public async void CameraButtonTapped(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new About_Us());

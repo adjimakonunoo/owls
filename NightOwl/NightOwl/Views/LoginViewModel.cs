@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
 using System.Text;
 using Xamarin.Forms;
 using System.Threading.Tasks;
@@ -17,9 +15,11 @@ namespace NightOwl.Views
         }
         string name = string.Empty;
         string password = string.Empty;
+        
 
         bool isBusy;
         bool isVisible;
+        bool isShowing;
         public string Name
         {
             get { return name; }
@@ -30,13 +30,20 @@ namespace NightOwl.Views
                 else
                     IsVisible = false;
                     OnPropertyChanged();
-                    OnPropertyChanged(nameof(Mytest));
+                OnPropertyChanged(nameof(Lab));
+                    //OnPropertyChanged(nameof(Mytest));
             }
         }
-        public string Mytest
+         public string Lab
         {
-            get { return $"You just entered {Name} and it changes whiles typing";}
+            get { return $" {Name} "; }
+           
+            
         }
+        //public string Mytest
+        //{
+        //    get { return $"You just entered {Name} and it changes whiles typing";}
+        //}
        
         public string Password
         {
@@ -44,9 +51,9 @@ namespace NightOwl.Views
             set {
                 password = value;
                 if (password != string.Empty)
-                    IsVisible = true;
+                    IsShowing = true;
                 else
-                    IsVisible = false;
+                    IsShowing = false;
                 OnPropertyChanged();
 
             }
@@ -61,7 +68,15 @@ namespace NightOwl.Views
                 OnPropertyChanged();
             }
         }
-
+        public bool IsShowing
+        {
+            get { return isShowing; }
+            set
+            {
+                isShowing = value;
+                OnPropertyChanged();
+            }
+        }
         public bool IsBusy
         {
             get { return isBusy; }
@@ -93,7 +108,7 @@ namespace NightOwl.Views
         {
             try
             {
-                Application.Current.MainPage = new NavigationPage(new RegistrationPage());
+                Application.Current.MainPage.Navigation.PushAsync(new RegistrationPage());
                 
             }
             catch(Exception e)

@@ -17,32 +17,38 @@ namespace NightOwl.Views
         {
             InitializeComponent();
             Init();
+            BindingContext = new AgentPollViewModel();
         }
         void Init()
         {
             BackgroundColor = Constants.BackgroundColor;
         }
 
-        private void Call_Clicked(object sender, EventArgs e)
-        {
-            PhoneDialer.Open(phonecall.Text);
-        }
+        //private void Call_Clicked(object sender, EventArgs e)
+        //{
+        //    PhoneDialer.Open(phonecall.Text);
+        //}
 
-        private async void Email_Clicked(object sender, EventArgs e)
-        {
-            var message = new EmailMessage(agentemmanuel.Text, "", emailer.Text);
-            await Email.ComposeAsync(message);
-        }
+        //private async void Email_Clicked(object sender, EventArgs e)
+        //{
+        //    var message = new EmailMessage(agentemmanuel.Text, "", emailer.Text);
+        //    await Email.ComposeAsync(message);
+        //}
 
         private void AddFrame_Clicked(object sender, EventArgs e)
         {
             var frame = new Frame
             {
-                Content = new Label { Text = "hi" },
-                BorderColor = Color.DodgerBlue,
-                HorizontalOptions = LayoutOptions.Center
+                Content = new Label { Text = "New Frame" , TextColor = Color.White},
+                BorderColor = Color.Silver,
+                
+                BackgroundColor = Color.DodgerBlue,
+                HorizontalOptions = LayoutOptions.FillAndExpand
+                
             };
             MasterStack.Children.Add(frame);
         }
+
+       
     }
 }

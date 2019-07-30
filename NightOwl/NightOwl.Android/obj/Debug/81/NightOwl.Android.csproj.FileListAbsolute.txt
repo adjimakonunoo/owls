@@ -59,6 +59,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\accounts.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\agent.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\aquablue.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\bird.png
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\shopping.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\termsandconditions1.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\layout\tabbar.xml
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\layout\toolbar.xml
@@ -89,6 +90,8 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\message.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\money.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\phone.png
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\hhh.png
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\blue.png
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\res\drawable\splash.xml
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\R.cs.flag
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\R.txt
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\uploadflags.txt
@@ -100,6 +103,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\DevExpress.Mobile.Co
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\DevExpress.Mobile.Grid.Android.v18.2.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\DevExpress.Mobile.Grid.v18.2.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ExpandableView.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\FastAndroidCamera.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\FormsViewGroup.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ImageCircle.Forms.Plugin.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Java.Interop.dll
@@ -174,6 +178,11 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.d
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ZXing.Net.Mobile.Core.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ZXing.Net.Mobile.Forms.Android.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ZXing.Net.Mobile.Forms.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\zxing.portable.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ZXingNetMobile.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\netstandard.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Data.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Transactions.dll
@@ -224,6 +233,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Net.Primitive
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Threading.Tasks.Extensions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Diagnostics.Tools.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.ObjectModel.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Text.RegularExpressions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\NightOwl.Android.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Microsoft.CSharp.pdb
@@ -269,6 +279,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\DevExpress.Mo
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\DevExpress.Mobile.Grid.Android.v18.2.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\DevExpress.Mobile.Grid.v18.2.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ExpandableView.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\FastAndroidCamera.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
@@ -385,6 +396,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Servic
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Text.Encoding.CodePages.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Text.Encoding.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Text.Encodings.Web.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Threading.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Threading.Tasks.Extensions.dll
@@ -432,6 +444,11 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXing.Net.Mobile.Core.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXing.Net.Mobile.Forms.Android.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXing.Net.Mobile.Forms.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\zxing.portable.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXingNetMobile.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\stamp\_BuildAdditionalResourcesCache.stamp
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\stamp\_CleanIntermediateIfNuGetsChange.stamp
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\stamp\_CopyIntermediateAssemblies.stamp

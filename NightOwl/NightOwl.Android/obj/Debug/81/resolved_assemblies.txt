@@ -5,6 +5,7 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\DevExpress.Mo
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\DevExpress.Mobile.Grid.Android.v18.2.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\DevExpress.Mobile.Grid.v18.2.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ExpandableView.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\FastAndroidCamera.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Java.Interop.dll
@@ -79,6 +80,11 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXing.Net.Mobile.Core.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXing.Net.Mobile.Forms.Android.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXing.Net.Mobile.Forms.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\zxing.portable.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\ZXingNetMobile.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\netstandard.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Data.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Transactions.dll
@@ -129,3 +135,4 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Net.Pr
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Threading.Tasks.Extensions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Diagnostics.Tools.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.ObjectModel.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll

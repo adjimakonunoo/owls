@@ -12,8 +12,15 @@
 
         </StackLayout>
     </NavigationPage.TitleView>
+    
     <ScrollView>
         <StackLayout x:Name="MasterStack">
+            <StackLayout.Padding>
+                <OnIdiom x:TypeArguments="Thickness">
+                    <OnIdiom.Phone>10,0,10,10</OnIdiom.Phone>
+                    <OnIdiom.Tablet>140,0,140,0</OnIdiom.Tablet>
+                </OnIdiom>
+            </StackLayout.Padding>
         <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
             <Image x:Name="BirdLogo" Source="bird.png" ></Image>
         </StackLayout>
@@ -29,22 +36,26 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                 <Label Text="Emmanuel" Grid.Column="0" TextColor="White"/>
-                <Label Text="0545331451" x:Name="phonecall" Grid.Column="1" TextColor="White"/>
-                    <Label Text="ntiamoahemmanuel244@gmail.com" x:Name="emailer" Grid.Column="2" TextColor="White"/>
-                    <Label Text="Hello Agent Emmanuel" x:Name="agentemmanuel" IsVisible="False"/>
+                <Label Text="{Binding Number}" Grid.Column="1" TextColor="White"/>
+                    <Label Text="{Binding EmmanuelEmail}"  Grid.Column="2" TextColor="White"/>
+                     
                 </Grid>
             </Frame>
-            <Grid>
+                <Entry Placeholder="Enter your message" Text="{Binding MessageText,Mode=OneWayToSource}"/>
+                <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-            <Button Text="Call" Clicked="Call_Clicked" Grid.Column="0"/>
-                <Button Text="Send Email" Clicked="Email_Clicked" Grid.Column="1"/>
-            </Grid>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Text="Call" Command="{Binding CallCommand}" Grid.Column="0"/>
+                    <Button Text="Send Email" Command="{Binding EmailCommand}" Grid.Column="1"/>
+                    <Button Text="Message" Command="{Binding MessageCommand}" Grid.Column="2"/>
+                </Grid>
             
         </StackLayout>
-        <Button x:Name="addFrame" Text="AddFrame" Clicked="AddFrame_Clicked"/>
+            <Button x:Name="addFrame" Text="AddFrame" Clicked="AddFrame_Clicked"/>
     </StackLayout>
     </ScrollView>
 </ContentPage>

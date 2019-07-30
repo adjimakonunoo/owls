@@ -44,14 +44,16 @@
                 </OnIdiom>
             </StackLayout.Padding>
                 <Label  Text="Username" IsVisible="{Binding IsVisible}"></Label>
-                <Entry Placeholder="Username" Text="{Binding Name}"
+                <Entry Placeholder="Username" Text="{Binding Name,Mode=TwoWay}"
                        Style="{StaticResource EntryLabel}"></Entry>
-                <Label Text="Password" IsVisible="{Binding IsVisible}" ></Label>
+                <Label Text="Password" IsVisible="{Binding IsShowing}" ></Label>
                 <Entry Text="{Binding Password}" Placeholder="Password"
                        IsPassword="True" IsTextPredictionEnabled="False"
                        IsSpellCheckEnabled="False" Style="{StaticResource EntryLabel}"></Entry>
-                <Label Text="{Binding Mytest}"/>
-
+                <!--<Label Text="{Binding Mytest}"/>-->
+                <ActivityIndicator  IsRunning="{Binding IsBusy}"
+                                       VerticalOptions="Center" HorizontalOptions="Center" Color="Blue">
+                </ActivityIndicator>
                 <Grid x:Name="buttonsGrid" Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -64,9 +66,7 @@
                             Style="{StaticResource buttonStyle}"
                             Grid.Column="1"></Button>
                 </Grid>
-                <ActivityIndicator  IsRunning="{Binding IsBusy}"
-                                       VerticalOptions="Center" HorizontalOptions="Center" Color="Blue">
-                </ActivityIndicator>
+                
             </StackLayout>
         </StackLayout>
     </ScrollView>

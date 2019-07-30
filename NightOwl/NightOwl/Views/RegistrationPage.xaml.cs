@@ -54,15 +54,5 @@ namespace NightOwl
         {
             await Navigation.PushModalAsync(new NavigationPage(new LoginPage()), true);
         }
-
-        private void LogoutClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Clear_Clicked(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
              x:Class="NightOwl.Views.About_Us">
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" VerticalOptions="Center"
@@ -12,6 +14,7 @@
 
         </StackLayout>
     </NavigationPage.TitleView>
+    <ScrollView>
     <StackLayout x:Name="MasterStack">
         <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
             <Image x:Name="BirdLogo" Source="bird.png" ></Image>
@@ -21,5 +24,17 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
+        <StackLayout>
+            <Button Text="Open Scanner" Command="{Binding ScannerCommand}" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry x:Name="codeent" Text="{Binding EntryText, Mode=TwoWay}" Placeholder="awaiting code"/>
+            <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView" BarcodeFormat="QR_CODE" IsVisible="false" BarcodeValue="Foo">
+                <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                    <zxcm:EncodingOptions Width="300" Height="300" />
+                </zxing:ZXingBarcodeImageView.BarcodeOptions>
+            </zxing:ZXingBarcodeImageView>
+            <Label Text="GENEARTED CODE" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Button Text="Generate QR Code" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Generate_Barcode"/>
+        </StackLayout>
     </StackLayout>
+    </ScrollView>
 </ContentPage>

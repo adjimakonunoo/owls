@@ -64,11 +64,11 @@
             },
             "Microsoft.CSharp": {
               "target": "Package",
-              "version": "[4.6.0-preview6.19303.8, )"
+              "version": "[4.6.0-preview7.19362.9, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[3.0.0-preview6.19304.6, )"
+              "version": "[3.0.0-preview7.19362.4, )"
             },
             "Microsoft.Net.Http": {
               "target": "Package",
@@ -76,11 +76,15 @@
             },
             "MonkeyCache.FileStore": {
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[1.3.1-beta, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[1.4.9, )"
             },
             "Rg.Plugins.Popup": {
               "target": "Package",
@@ -146,7 +150,15 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.608146-pre1, )"
+              "version": "[4.2.0.618605-pre2, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           }
         }
@@ -213,11 +225,11 @@
             },
             "Microsoft.CSharp": {
               "target": "Package",
-              "version": "[4.6.0-preview6.19303.8, )"
+              "version": "[4.6.0-preview7.19362.9, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[3.0.0-preview6.19304.6, )"
+              "version": "[3.0.0-preview7.19362.4, )"
             },
             "Microsoft.Net.Http": {
               "target": "Package",
@@ -225,7 +237,7 @@
             },
             "MonkeyCache.FileStore": {
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[1.3.1-beta, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -236,6 +248,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[1.4.9, )"
             },
             "Rg.Plugins.Popup": {
               "target": "Package",
@@ -273,7 +289,15 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.608146-pre1, )"
+              "version": "[4.2.0.618605-pre2, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [

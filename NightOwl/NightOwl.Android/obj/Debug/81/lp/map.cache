@@ -4,6 +4,7 @@ DevExpress.Mobile.Core.v18.2
 DevExpress.Mobile.Grid.Android.v18.2
 DevExpress.Mobile.Grid.v18.2
 ExpandableView
+FastAndroidCamera
 FormsViewGroup
 ImageCircle.Forms.Plugin
 Microsoft.AspNetCore.Http.Abstractions
@@ -70,6 +71,11 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+ZXing.Net.Mobile.Core
+ZXing.Net.Mobile.Forms.Android
+ZXing.Net.Mobile.Forms
+zxing.portable
+ZXingNetMobile
 netstandard
 System.Drawing.Common
 System.ServiceModel.Primitives
@@ -91,3 +97,6 @@ System.Security.Cryptography.Primitives
 System.Text.Encoding
 System.Reflection.Extensions
 System.Diagnostics.Tools
+Plugin.Fingerprint.Abstractions
+Plugin.Fingerprint.Android.Samsung
+Plugin.Fingerprint

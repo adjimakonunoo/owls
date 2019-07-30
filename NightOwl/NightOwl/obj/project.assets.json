@@ -120,7 +120,7 @@
       "Microsoft.Bcl.Build/1.0.14": {
         "type": "package"
       },
-      "Microsoft.CSharp/4.6.0-preview6.19303.8": {
+      "Microsoft.CSharp/4.6.0-preview7.19362.9": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/Microsoft.CSharp.dll": {}
@@ -129,10 +129,10 @@
           "lib/netstandard2.0/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.Caching.Abstractions/3.0.0-preview7.19362.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.0.0-preview6.19304.6"
+          "Microsoft.Extensions.Primitives": "3.0.0-preview7.19362.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -141,13 +141,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.Caching.Memory/3.0.0-preview7.19362.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.0.0-preview6.19304.6",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview6.19304.6",
-          "Microsoft.Extensions.Logging.Abstractions": "3.0.0-preview6.19304.6",
-          "Microsoft.Extensions.Options": "3.0.0-preview6.19304.6"
+          "Microsoft.Extensions.Caching.Abstractions": "3.0.0-preview7.19362.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview7.19362.4",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.0-preview7.19362.4",
+          "Microsoft.Extensions.Options": "3.0.0-preview7.19362.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -214,7 +214,7 @@
           "lib/netstandard1.3/Microsoft.Extensions.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview7.19362.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -262,7 +262,7 @@
           "lib/netstandard1.3/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.Logging.Abstractions/3.0.0-preview7.19362.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -271,12 +271,12 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.Options/3.0.0-preview7.19362.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview6.19304.6",
-          "Microsoft.Extensions.Primitives": "3.0.0-preview6.19304.6",
-          "System.ComponentModel.Annotations": "4.6.0-preview6.19303.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview7.19362.4",
+          "Microsoft.Extensions.Primitives": "3.0.0-preview7.19362.4",
+          "System.ComponentModel.Annotations": "4.6.0-preview7.19362.9"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
@@ -298,11 +298,11 @@
           "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.Primitives/3.0.0-preview7.19362.4": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview6.19303.8"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview7.19362.9"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
@@ -368,7 +368,7 @@
           "ref/netstandard1.3/_._": {}
         }
       },
-      "MonkeyCache/1.3.0": {
+      "MonkeyCache/1.3.1-beta": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2"
@@ -380,10 +380,10 @@
           "lib/netstandard2.0/MonkeyCache.dll": {}
         }
       },
-      "MonkeyCache.FileStore/1.3.0": {
+      "MonkeyCache.FileStore/1.3.1-beta": {
         "type": "package",
         "dependencies": {
-          "MonkeyCache": "1.3.0",
+          "MonkeyCache": "1.3.1-beta",
           "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
@@ -415,6 +415,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/1.4.9": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Plugin.Fingerprint.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Fingerprint.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Fingerprint.dll": {}
         }
       },
       "Rg.Plugins.Popup/1.1.5.188": {
@@ -641,7 +655,7 @@
           "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.6.0-preview6.19303.8": {
+      "System.ComponentModel.Annotations/4.6.0-preview7.19362.9": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.ComponentModel.Annotations.dll": {}
@@ -1275,7 +1289,7 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.6.0-preview6.19303.8": {
+      "System.Runtime.CompilerServices.Unsafe/4.6.0-preview7.19362.9": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -1863,7 +1877,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.608146-pre1": {
+      "Xamarin.Forms/4.2.0.618605-pre2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -1878,6 +1892,32 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {},
+          "lib/netstandard1.0/ZXingNetMobile.dll": {},
+          "lib/netstandard1.0/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {},
+          "lib/netstandard1.0/ZXingNetMobile.dll": {},
+          "lib/netstandard1.0/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {}
         }
       }
     }
@@ -2102,10 +2142,10 @@
         "tools/Uninstall.ps1"
       ]
     },
-    "Microsoft.CSharp/4.6.0-preview6.19303.8": {
-      "sha512": "kolH1W6J7Kb/bUwqAW+Xj2wLrTQn5se/iE7tH+8jLsCnlqvSwa3i60CWfTRUX1zUv5eLQ+yk7kRjTeCZUYt/Ig==",
+    "Microsoft.CSharp/4.6.0-preview7.19362.9": {
+      "sha512": "Td4bst1H9AN3fIX2DQva04yppzbKLSH1yWnKAo5gh4EkGXKoVXHlDVdyRJ/ExcPD4lJE2jI52FEFeB56ps3Lkg==",
       "type": "package",
-      "path": "microsoft.csharp/4.6.0-preview6.19303.8",
+      "path": "microsoft.csharp/4.6.0-preview7.19362.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2128,7 +2168,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.6.0-preview6.19303.8.nupkg.sha512",
+        "microsoft.csharp.4.6.0-preview7.19362.9.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -2171,29 +2211,29 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.0.0-preview6.19304.6": {
-      "sha512": "yfNN2QAbJAOJNsH0LHPebgzweLsRVarn+Z9KzW08AMs6lyd4AMY8PnBqGgv7A/KfpAsuQPa2f1jPKz2Bi8QzhQ==",
+    "Microsoft.Extensions.Caching.Abstractions/3.0.0-preview7.19362.4": {
+      "sha512": "9HVZJ6i9WcY/c8/TnrHSp6vXizy0FzmHdNdp0OwFDpqvtrkzdVa96wbPh50P5i56q0BOiD6tUi/jvQ8/ihgemw==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.caching.abstractions/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/3.0.0-preview6.19304.6": {
-      "sha512": "oNyReFgrLWkqSBPX6uMrmOmECyLFomnJQvOMAlbceZBkVEA+tJUs/wgaZ3y9vsvHDCT7gcJCz6ptiVtOoboyng==",
+    "Microsoft.Extensions.Caching.Memory/3.0.0-preview7.19362.4": {
+      "sha512": "Fkkljqdq+bKRQ/juaiiSR6B13to3YyN1TMpTDXIBpRGmgJX6155VZkdjlXuDZwwKw4oh1/kfJz1Hlb3SKjHBXQ==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.caching.memory/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.caching.memory.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec"
       ]
     },
@@ -2253,16 +2293,16 @@
         "microsoft.extensions.configuration.json.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview6.19304.6": {
-      "sha512": "g2M6hgbjj+XFiohKnNBJ/7DjPhVfp4HEe+wbXIEVSfA1HkT40/aHiXY/7ynkndEXXBaTgj6OYtj89iDyTKSsEw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview7.19362.4": {
+      "sha512": "wkbGhzM7H6CAquBu8F369aIbkMXxZzGEqpg3X8HyG8QBiUxacO7G+mHUTlQI/7niU0X+OSaWmL0TTbJIk68ifg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
@@ -2309,29 +2349,29 @@
         "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.0.0-preview6.19304.6": {
-      "sha512": "+KC09OoZbOlboVbrtdu3YP8qHl7Xzk3ROOdgtOgEzT0wB21REyuBHzgwht5lPm97dMJ7XJhEN0hzPyHgIYBz9Q==",
+    "Microsoft.Extensions.Logging.Abstractions/3.0.0-preview7.19362.4": {
+      "sha512": "8IOxqipPWDiME9Wo8uFQx9q8zPM7KOKgQOlZfxh4cDzf8NqK0oB12hfZXW0fU4EMJbR6cEmn9Wopewfrn76r8Q==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.logging.abstractions/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options/3.0.0-preview6.19304.6": {
-      "sha512": "KfCOcw5FcwZA+VXkWK9tVoFglHY8+mhV+Xbqlbu89hTy9xHSDMr0JwLWlf3pvvlz4+fASI1LQKp6QOHZTbfHeQ==",
+    "Microsoft.Extensions.Options/3.0.0-preview7.19362.4": {
+      "sha512": "AusoyILnFE7hy1qsCmBiJ+y0SpbG3rU/J52EwfY9Rh3+JIpYB3knY0YxvTCKivO5rhANVhcMAJ1ZFVQ2kg4zsg==",
       "type": "package",
-      "path": "microsoft.extensions.options/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.options/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.options.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
     },
@@ -2349,10 +2389,10 @@
         "microsoft.extensions.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.0.0-preview6.19304.6": {
-      "sha512": "A7j/haTP/2UQj0R/4Rh24NAjViHd8+1OB1oXGSqKCDONIb5LCMKc6qhP+kN5cbYXHUfcUz97FS/BPRGaNxBLDg==",
+    "Microsoft.Extensions.Primitives/3.0.0-preview7.19362.4": {
+      "sha512": "eFNyNB9NSkln65EpwzLrWqbfSr8mMdAHmfYN5SrjBIStFBcmamjxGLXxvOJ0/YxdTjF0lBf1Z/yFZUOb14VlAw==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.primitives/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2360,7 +2400,7 @@
         "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.primitives.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
@@ -2515,10 +2555,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "MonkeyCache/1.3.0": {
-      "sha512": "2vKApQKjFaJWCJJSqPmYo572RW1eISKIfPrLRe+qsrQFSmwYxUWEWvu/GVzpIlPSdcRHrxFPz9Z2v7VxjpOC4A==",
+    "MonkeyCache/1.3.1-beta": {
+      "sha512": "WtEbiVuwZTy28Cgye1GywfkbYbStn5i1z7UyPNDxhKfxzloY3MmwwWNNpkAMUbSdlsfKqL6ozwRb6Cb4gKmFQg==",
       "type": "package",
-      "path": "monkeycache/1.3.0",
+      "path": "monkeycache/1.3.1-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2553,14 +2593,14 @@
         "lib/xamarinwatchos10/MonkeyCache.dll",
         "lib/xamarinwatchos10/MonkeyCache.pdb",
         "lib/xamarinwatchos10/MonkeyCache.xml",
-        "monkeycache.1.3.0.nupkg.sha512",
+        "monkeycache.1.3.1-beta.nupkg.sha512",
         "monkeycache.nuspec"
       ]
     },
-    "MonkeyCache.FileStore/1.3.0": {
-      "sha512": "9SO1tlf6B5qaUMOfmYhRY3DYrs1+KIVsHZIuxDdaqm+uE5iP8nmyv2uL4xCgCG6TSBw51OPg+Fl++bsx0pGiWg==",
+    "MonkeyCache.FileStore/1.3.1-beta": {
+      "sha512": "qmKvybLPhJkgzgbMiqj4jFsYgNKlNzf+BWVmSTifYIcxWPef0l/0i8tOixmLTLwksBL49+C/lHKa/0RWQm9ExQ==",
       "type": "package",
-      "path": "monkeycache.filestore/1.3.0",
+      "path": "monkeycache.filestore/1.3.1-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2595,7 +2635,7 @@
         "lib/xamarinwatchos10/MonkeyCache.FileStore.dll",
         "lib/xamarinwatchos10/MonkeyCache.FileStore.pdb",
         "lib/xamarinwatchos10/MonkeyCache.FileStore.xml",
-        "monkeycache.filestore.1.3.0.nupkg.sha512",
+        "monkeycache.filestore.1.3.1-beta.nupkg.sha512",
         "monkeycache.filestore.nuspec"
       ]
     },
@@ -2755,6 +2795,65 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Plugin.Fingerprint/1.4.9": {
+      "sha512": "J2IzXTorHra6GiQ0E5rQZUmra5ktqPXrgaOvpH47EmejUmEYKYy+g2SbKeJg5sUQ/j6eZl8hPe0tJI65LH0q/A==",
+      "type": "package",
+      "path": "plugin.fingerprint/1.4.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Plugin.Fingerprint.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/MonoAndroid/Plugin.Fingerprint.Android.Samsung.dll",
+        "lib/MonoAndroid/Plugin.Fingerprint.Android.Samsung.pdb",
+        "lib/MonoAndroid/Plugin.Fingerprint.dll",
+        "lib/MonoAndroid/Plugin.Fingerprint.pdb",
+        "lib/UAP10/Plugin.Fingerprint.Abstractions.dll",
+        "lib/UAP10/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/UAP10/Plugin.Fingerprint.dll",
+        "lib/UAP10/Plugin.Fingerprint.pdb",
+        "lib/UAP10/Plugin.Fingerprint.pri",
+        "lib/UAP10/Plugin.Fingerprint/Properties/Plugin.Fingerprint.UWP.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Fingerprint.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Fingerprint.dll",
+        "lib/Xamarin.iOS10/Plugin.Fingerprint.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Fingerprint.dll",
+        "lib/net45/Plugin.Fingerprint.Abstractions.dll",
+        "lib/net45/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/net45/Plugin.Fingerprint.dll",
+        "lib/net45/Plugin.Fingerprint.pdb",
+        "lib/netcore45/Plugin.Fingerprint.Abstractions.dll",
+        "lib/netcore45/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/netcore45/Plugin.Fingerprint.dll",
+        "lib/netcore45/Plugin.Fingerprint.pdb",
+        "lib/netstandard1.0/Plugin.Fingerprint.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Fingerprint.XML",
+        "lib/netstandard1.0/Plugin.Fingerprint.dll",
+        "lib/netstandard1.0/Plugin.Fingerprint.pdb",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.Fingerprint.Abstractions.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.Fingerprint.XML",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.Fingerprint.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.Fingerprint.pdb",
+        "lib/win81/Plugin.Fingerprint.Abstractions.dll",
+        "lib/win81/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/win81/Plugin.Fingerprint.dll",
+        "lib/win81/Plugin.Fingerprint.pdb",
+        "lib/wp8/Plugin.Fingerprint.Abstractions.dll",
+        "lib/wp8/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/wp8/Plugin.Fingerprint.dll",
+        "lib/wp8/Plugin.Fingerprint.pdb",
+        "lib/wpa81/Plugin.Fingerprint.Abstractions.dll",
+        "lib/wpa81/Plugin.Fingerprint.Abstractions.pdb",
+        "lib/wpa81/Plugin.Fingerprint.dll",
+        "lib/wpa81/Plugin.Fingerprint.pdb",
+        "plugin.fingerprint.1.4.9.nupkg.sha512",
+        "plugin.fingerprint.nuspec"
       ]
     },
     "Rg.Plugins.Popup/1.1.5.188": {
@@ -3161,10 +3260,10 @@
         "system.collections.concurrent.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.6.0-preview6.19303.8": {
-      "sha512": "Q5NUReQpwGjPTm1uhKyNfvbVqNn9pQ46L4Lxkz/+hCoRsMJQkI3Acbh6E57SjJ1hn5hcTv4yy9bqqpDK06UPoQ==",
+    "System.ComponentModel.Annotations/4.6.0-preview7.19362.9": {
+      "sha512": "i7rvLwqZHbX5IZ+Amgr0HmQuvyzBOeR2I3N2fAPxQO4IfJ4tUXAd7Rb//HpSWSqJ23KiQSKPoSpj5c+loFMlVA==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.6.0-preview6.19303.8",
+      "path": "system.componentmodel.annotations/4.6.0-preview7.19362.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3246,7 +3345,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.6.0-preview6.19303.8.nupkg.sha512",
+        "system.componentmodel.annotations.4.6.0-preview7.19362.9.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -5092,10 +5191,10 @@
         "system.runtime.nuspec"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.6.0-preview6.19303.8": {
-      "sha512": "wfz/0mE6+PUKIfD0AbLxas9kH49AwSvwPi2m9ppU6cvrgib3r95MHIrmKNLnF8PNvRVurdUlatP6D8PEyEuzZQ==",
+    "System.Runtime.CompilerServices.Unsafe/4.6.0-preview7.19362.9": {
+      "sha512": "M0ayC8Ij2/AsHi/jCL6PYcjxE+a4Ud7qGMhQxYDmn/5hTJS7DEfKiK30vPf81PHb6Mjv49D0eQVxY9gfve1+gg==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.6.0-preview6.19303.8",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0-preview7.19362.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5111,7 +5210,7 @@
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.6.0-preview6.19303.8.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.4.6.0-preview7.19362.9.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -6696,10 +6795,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.608146-pre1": {
-      "sha512": "d3+D6w0HjjD5JeDrkuWe+zTIlSao1XJKaXUXzsJHqKyU44DGef9w2l7xNlZwW5eW+mDHNK/CGQYhvXjNh+aiGg==",
+    "Xamarin.Forms/4.2.0.618605-pre2": {
+      "sha512": "/aJmHYW2djou6TXOQtceNwLQ5Yoqs9tEt4wuyg2LllwIEM11yy15gzifaaMS/JMnhBRAm6m5QKGGJ8lXwkIKXw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.608146-pre1",
+      "path": "xamarin.forms/4.2.0.618605-pre2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6938,8 +7037,52 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.608146-pre1.nupkg.sha512",
+        "xamarin.forms.4.2.0.618605-pre2.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
       ]
     }
   },
@@ -6950,12 +7093,13 @@
       "ExpandableView >= 1.0.9",
       "Microsoft.AspNetCore.WebSockets >= 2.2.1",
       "Microsoft.Bcl.Build >= 1.0.14",
-      "Microsoft.CSharp >= 4.6.0-preview6.19303.8",
-      "Microsoft.Extensions.Caching.Memory >= 3.0.0-preview6.19304.6",
+      "Microsoft.CSharp >= 4.6.0-preview7.19362.9",
+      "Microsoft.Extensions.Caching.Memory >= 3.0.0-preview7.19362.4",
       "Microsoft.Net.Http >= 2.2.29",
-      "MonkeyCache.FileStore >= 1.3.0",
+      "MonkeyCache.FileStore >= 1.3.1-beta",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.2",
+      "Plugin.Fingerprint >= 1.4.9",
       "Rg.Plugins.Popup >= 1.1.5.188",
       "System.Net.WebSockets.Client >= 4.3.2",
       "Websockets.Pcl >= 1.1.9",
@@ -6964,7 +7108,9 @@
       "Xam.Plugins.Forms.ImageCircle >= 3.1.1.1-beta",
       "Xamarin.CustomControls.AccordionView >= 1.1.6",
       "Xamarin.Essentials >= 1.3.0-pre",
-      "Xamarin.Forms >= 4.2.0.608146-pre1"
+      "Xamarin.Forms >= 4.2.0.618605-pre2",
+      "ZXing.Net.Mobile >= 2.4.1",
+      "ZXing.Net.Mobile.Forms >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -7033,11 +7179,11 @@
           },
           "Microsoft.CSharp": {
             "target": "Package",
-            "version": "[4.6.0-preview6.19303.8, )"
+            "version": "[4.6.0-preview7.19362.9, )"
           },
           "Microsoft.Extensions.Caching.Memory": {
             "target": "Package",
-            "version": "[3.0.0-preview6.19304.6, )"
+            "version": "[3.0.0-preview7.19362.4, )"
           },
           "Microsoft.Net.Http": {
             "target": "Package",
@@ -7045,7 +7191,7 @@
           },
           "MonkeyCache.FileStore": {
             "target": "Package",
-            "version": "[1.3.0, )"
+            "version": "[1.3.1-beta, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -7056,6 +7202,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.2, )"
+          },
+          "Plugin.Fingerprint": {
+            "target": "Package",
+            "version": "[1.4.9, )"
           },
           "Rg.Plugins.Popup": {
             "target": "Package",
@@ -7093,7 +7243,15 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.608146-pre1, )"
+            "version": "[4.2.0.618605-pre2, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         },
         "imports": [
@@ -7109,7 +7267,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: DevExpress.Mobile.Grid 18.2.3 requires Xamarin.Forms (= 3.6.0.264807) but version Xamarin.Forms 4.2.0.608146-pre1 was resolved.",
+      "message": "Detected package version outside of dependency constraint: DevExpress.Mobile.Grid 18.2.3 requires Xamarin.Forms (= 3.6.0.264807) but version Xamarin.Forms 4.2.0.618605-pre2 was resolved.",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

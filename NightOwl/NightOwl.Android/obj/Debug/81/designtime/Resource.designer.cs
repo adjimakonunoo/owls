@@ -2302,6 +2302,13 @@ namespace NightOwl.Droid
 			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_id = global::NightOwl.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NightOwl.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_layout = global::NightOwl.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.Fingerprint.Resource.Drawable.fingerprint_white = global::NightOwl.Droid.Resource.Drawable.fingerprint_white;
+			global::Plugin.Fingerprint.Resource.Id.fingerprint_btnCancel = global::NightOwl.Droid.Resource.Id.fingerprint_btnCancel;
+			global::Plugin.Fingerprint.Resource.Id.fingerprint_btnFallback = global::NightOwl.Droid.Resource.Id.fingerprint_btnFallback;
+			global::Plugin.Fingerprint.Resource.Id.fingerprint_imgFingerprint = global::NightOwl.Droid.Resource.Id.fingerprint_imgFingerprint;
+			global::Plugin.Fingerprint.Resource.Id.fingerprint_txtHelp = global::NightOwl.Droid.Resource.Id.fingerprint_txtHelp;
+			global::Plugin.Fingerprint.Resource.Id.fingerprint_txtReason = global::NightOwl.Droid.Resource.Id.fingerprint_txtReason;
+			global::Plugin.Fingerprint.Resource.Layout.FingerprintDialog = global::NightOwl.Droid.Resource.Layout.FingerprintDialog;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::NightOwl.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::NightOwl.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::NightOwl.Droid.Resource.Attribute.fontProviderCerts;
@@ -3797,6 +3804,7 @@ namespace NightOwl.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::NightOwl.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::NightOwl.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::NightOwl.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::NightOwl.Droid.Resource.Style.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::NightOwl.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_background = global::NightOwl.Droid.Resource.Styleable.ActionBar_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::NightOwl.Droid.Resource.Styleable.ActionBar_backgroundSplit;
@@ -4349,6 +4357,12 @@ namespace NightOwl.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::NightOwl.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NightOwl.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::NightOwl.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::NightOwl.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::NightOwl.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::NightOwl.Droid.Resource.String.library_name;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::NightOwl.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::NightOwl.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::NightOwl.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -5669,6 +5683,9 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F060018
 			public const int abc_tint_switch_track = 2131099672;
 			
+			// aapt resource value: 0x7F050005
+			public const int Accent = 2131034117;
+			
 			// aapt resource value: 0x7F060019
 			public const int accent_material_dark = 2131099673;
 			
@@ -5728,15 +5745,6 @@ namespace NightOwl.Droid
 			
 			// aapt resource value: 0x7F060004
 			public const int cardview_shadow_start_color = 2131099652;
-			
-			// aapt resource value: 0x7F050005
-			public const int colorAccent = 2131034117;
-			
-			// aapt resource value: 0x7F050003
-			public const int colorPrimary = 2131034115;
-			
-			// aapt resource value: 0x7F050004
-			public const int colorPrimaryDark = 2131034116;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -5851,6 +5859,12 @@ namespace NightOwl.Droid
 			
 			// aapt resource value: 0x7F060049
 			public const int notification_material_background_media_default_color = 2131099721;
+			
+			// aapt resource value: 0x7F050003
+			public const int Primary = 2131034115;
+			
+			// aapt resource value: 0x7F050004
+			public const int PrimaryDark = 2131034116;
 			
 			// aapt resource value: 0x7F06004A
 			public const int primary_dark_material_dark = 2131099722;
@@ -6722,7 +6736,10 @@ namespace NightOwl.Droid
 			public const int bird = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int chat = 2130771977;
+			public const int blue = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int chat = 2130771984;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -6742,17 +6759,20 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010010
-			public const int emmanuel = 2130771984;
-			
 			// aapt resource value: 0x7F010011
-			public const int find = 2130771985;
+			public const int emmanuel = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int hhh = 2130771986;
+			public const int find = 2130771986;
+			
+			// aapt resource value: 0x7F010069
+			public const int fingerprint_white = 2130772073;
 			
 			// aapt resource value: 0x7F010013
-			public const int hi = 2130771987;
+			public const int hhh = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int hi = 2130771988;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -7285,14 +7305,14 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010014
-			public const int j = 2130771988;
-			
 			// aapt resource value: 0x7F010015
-			public const int message = 2130771989;
+			public const int j = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int Money = 2130771990;
+			public const int message = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int Money = 2130771991;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -7393,149 +7413,155 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010017
-			public const int owl = 2130771991;
-			
 			// aapt resource value: 0x7F010018
-			public const int phone = 2130771992;
-			
-			// aapt resource value: 0x7F010030
-			public const int segment_grey = 2130772016;
-			
-			// aapt resource value: 0x7F010031
-			public const int segment_grey_focus = 2130772017;
-			
-			// aapt resource value: 0x7F010032
-			public const int segment_grey_press = 2130772018;
-			
-			// aapt resource value: 0x7F010033
-			public const int segment_left_off = 2130772019;
-			
-			// aapt resource value: 0x7F010034
-			public const int segment_left_off_pressed = 2130772020;
-			
-			// aapt resource value: 0x7F010035
-			public const int segment_left_on = 2130772021;
-			
-			// aapt resource value: 0x7F010036
-			public const int segment_middle_off = 2130772022;
-			
-			// aapt resource value: 0x7F010037
-			public const int segment_middle_off_pressed = 2130772023;
-			
-			// aapt resource value: 0x7F010038
-			public const int segment_middle_on = 2130772024;
-			
-			// aapt resource value: 0x7F010039
-			public const int segment_off = 2130772025;
-			
-			// aapt resource value: 0x7F010040
-			public const int segment_off_pressed = 2130772032;
-			
-			// aapt resource value: 0x7F010041
-			public const int segment_on = 2130772033;
-			
-			// aapt resource value: 0x7F010042
-			public const int segment_radio_grey_left = 2130772034;
-			
-			// aapt resource value: 0x7F010043
-			public const int segment_radio_grey_left_focus = 2130772035;
-			
-			// aapt resource value: 0x7F010044
-			public const int segment_radio_grey_left_press = 2130772036;
-			
-			// aapt resource value: 0x7F010045
-			public const int segment_radio_grey_middle = 2130772037;
-			
-			// aapt resource value: 0x7F010046
-			public const int segment_radio_grey_middle_focus = 2130772038;
-			
-			// aapt resource value: 0x7F010047
-			public const int segment_radio_grey_middle_press = 2130772039;
-			
-			// aapt resource value: 0x7F010048
-			public const int segment_radio_grey_right = 2130772040;
-			
-			// aapt resource value: 0x7F010049
-			public const int segment_radio_grey_right_focus = 2130772041;
-			
-			// aapt resource value: 0x7F010050
-			public const int segment_radio_grey_right_press = 2130772048;
-			
-			// aapt resource value: 0x7F010051
-			public const int segment_radio_white_left = 2130772049;
-			
-			// aapt resource value: 0x7F010052
-			public const int segment_radio_white_left_focus = 2130772050;
-			
-			// aapt resource value: 0x7F010053
-			public const int segment_radio_white_left_press = 2130772051;
-			
-			// aapt resource value: 0x7F010054
-			public const int segment_radio_white_middle = 2130772052;
-			
-			// aapt resource value: 0x7F010055
-			public const int segment_radio_white_middle_focus = 2130772053;
-			
-			// aapt resource value: 0x7F010056
-			public const int segment_radio_white_middle_press = 2130772054;
-			
-			// aapt resource value: 0x7F010057
-			public const int segment_radio_white_right = 2130772055;
-			
-			// aapt resource value: 0x7F010058
-			public const int segment_radio_white_right_focus = 2130772056;
-			
-			// aapt resource value: 0x7F010059
-			public const int segment_radio_white_right_press = 2130772057;
-			
-			// aapt resource value: 0x7F010060
-			public const int segment_right_off = 2130772064;
-			
-			// aapt resource value: 0x7F010061
-			public const int segment_right_off_pressed = 2130772065;
-			
-			// aapt resource value: 0x7F010062
-			public const int segment_right_on = 2130772066;
-			
-			// aapt resource value: 0x7F010063
-			public const int segment_white = 2130772067;
-			
-			// aapt resource value: 0x7F010064
-			public const int segment_white_focus = 2130772068;
-			
-			// aapt resource value: 0x7F010065
-			public const int segment_white_press = 2130772069;
+			public const int owl = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int TermsAndConditions1 = 2130771993;
+			public const int phone = 2130771993;
+			
+			// aapt resource value: 0x7F010033
+			public const int segment_grey = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public const int segment_grey_focus = 2130772020;
+			
+			// aapt resource value: 0x7F010035
+			public const int segment_grey_press = 2130772021;
+			
+			// aapt resource value: 0x7F010036
+			public const int segment_left_off = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public const int segment_left_off_pressed = 2130772023;
+			
+			// aapt resource value: 0x7F010038
+			public const int segment_left_on = 2130772024;
+			
+			// aapt resource value: 0x7F010039
+			public const int segment_middle_off = 2130772025;
+			
+			// aapt resource value: 0x7F010040
+			public const int segment_middle_off_pressed = 2130772032;
+			
+			// aapt resource value: 0x7F010041
+			public const int segment_middle_on = 2130772033;
+			
+			// aapt resource value: 0x7F010042
+			public const int segment_off = 2130772034;
+			
+			// aapt resource value: 0x7F010043
+			public const int segment_off_pressed = 2130772035;
+			
+			// aapt resource value: 0x7F010044
+			public const int segment_on = 2130772036;
+			
+			// aapt resource value: 0x7F010045
+			public const int segment_radio_grey_left = 2130772037;
+			
+			// aapt resource value: 0x7F010046
+			public const int segment_radio_grey_left_focus = 2130772038;
+			
+			// aapt resource value: 0x7F010047
+			public const int segment_radio_grey_left_press = 2130772039;
+			
+			// aapt resource value: 0x7F010048
+			public const int segment_radio_grey_middle = 2130772040;
+			
+			// aapt resource value: 0x7F010049
+			public const int segment_radio_grey_middle_focus = 2130772041;
+			
+			// aapt resource value: 0x7F010050
+			public const int segment_radio_grey_middle_press = 2130772048;
+			
+			// aapt resource value: 0x7F010051
+			public const int segment_radio_grey_right = 2130772049;
+			
+			// aapt resource value: 0x7F010052
+			public const int segment_radio_grey_right_focus = 2130772050;
+			
+			// aapt resource value: 0x7F010053
+			public const int segment_radio_grey_right_press = 2130772051;
+			
+			// aapt resource value: 0x7F010054
+			public const int segment_radio_white_left = 2130772052;
+			
+			// aapt resource value: 0x7F010055
+			public const int segment_radio_white_left_focus = 2130772053;
+			
+			// aapt resource value: 0x7F010056
+			public const int segment_radio_white_left_press = 2130772054;
+			
+			// aapt resource value: 0x7F010057
+			public const int segment_radio_white_middle = 2130772055;
+			
+			// aapt resource value: 0x7F010058
+			public const int segment_radio_white_middle_focus = 2130772056;
+			
+			// aapt resource value: 0x7F010059
+			public const int segment_radio_white_middle_press = 2130772057;
+			
+			// aapt resource value: 0x7F010060
+			public const int segment_radio_white_right = 2130772064;
+			
+			// aapt resource value: 0x7F010061
+			public const int segment_radio_white_right_focus = 2130772065;
+			
+			// aapt resource value: 0x7F010062
+			public const int segment_radio_white_right_press = 2130772066;
+			
+			// aapt resource value: 0x7F010063
+			public const int segment_right_off = 2130772067;
+			
+			// aapt resource value: 0x7F010064
+			public const int segment_right_off_pressed = 2130772068;
+			
+			// aapt resource value: 0x7F010065
+			public const int segment_right_on = 2130772069;
+			
+			// aapt resource value: 0x7F010066
+			public const int segment_white = 2130772070;
+			
+			// aapt resource value: 0x7F010067
+			public const int segment_white_focus = 2130772071;
+			
+			// aapt resource value: 0x7F010068
+			public const int segment_white_press = 2130772072;
 			
 			// aapt resource value: 0x7F010020
-			public const int test = 2130772000;
+			public const int Shopping = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int splash = 2130772001;
 			
 			// aapt resource value: 0x7F010022
-			public const int theme_dark_segment_button = 2130772002;
+			public const int TermsAndConditions1 = 2130772002;
 			
 			// aapt resource value: 0x7F010023
-			public const int theme_dark_segment_radio_left = 2130772003;
-			
-			// aapt resource value: 0x7F010024
-			public const int theme_dark_segment_radio_middle = 2130772004;
+			public const int test = 2130772003;
 			
 			// aapt resource value: 0x7F010025
-			public const int theme_dark_segment_radio_right = 2130772005;
+			public const int theme_dark_segment_button = 2130772005;
 			
 			// aapt resource value: 0x7F010026
-			public const int theme_default_segment_button = 2130772006;
+			public const int theme_dark_segment_radio_left = 2130772006;
 			
 			// aapt resource value: 0x7F010027
-			public const int theme_default_segment_radio_left = 2130772007;
+			public const int theme_dark_segment_radio_middle = 2130772007;
 			
 			// aapt resource value: 0x7F010028
-			public const int theme_default_segment_radio_middle = 2130772008;
+			public const int theme_dark_segment_radio_right = 2130772008;
 			
 			// aapt resource value: 0x7F010029
-			public const int theme_default_segment_radio_right = 2130772009;
+			public const int theme_default_segment_button = 2130772009;
+			
+			// aapt resource value: 0x7F010030
+			public const int theme_default_segment_radio_left = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public const int theme_default_segment_radio_middle = 2130772017;
+			
+			// aapt resource value: 0x7F010032
+			public const int theme_default_segment_radio_right = 2130772018;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -7543,8 +7569,8 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010021
-			public const int yea = 2130772001;
+			// aapt resource value: 0x7F010024
+			public const int yea = 2130772004;
 			
 			static Drawable()
 			{
@@ -7637,11 +7663,11 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020177
-			public const int bottomtab.navarea = 2130837879;
+			// aapt resource value: 0x7F020182
+			public const int bottomtab.navarea = 2130837890;
 			
-			// aapt resource value: 0x7F020178
-			public const int bottomtab.tabbar = 2130837880;
+			// aapt resource value: 0x7F020183
+			public const int bottomtab.tabbar = 2130837891;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -7658,8 +7684,14 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
+			// aapt resource value: 0x7F020193
+			public const int collectionViewStyle = 2130837907;
+			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
+			
+			// aapt resource value: 0x7F020194
+			public const int contentFrame = 2130837908;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
@@ -7712,14 +7744,29 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
 			
+			// aapt resource value: 0x7F020010
+			public const int fingerprint_btnCancel = 2130837520;
+			
+			// aapt resource value: 0x7F020011
+			public const int fingerprint_btnFallback = 2130837521;
+			
+			// aapt resource value: 0x7F020007
+			public const int fingerprint_imgFingerprint = 2130837511;
+			
+			// aapt resource value: 0x7F020008
+			public const int fingerprint_txtHelp = 2130837512;
+			
+			// aapt resource value: 0x7F020009
+			public const int fingerprint_txtReason = 2130837513;
+			
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F020179
-			public const int flyoutcontent_appbar = 2130837881;
+			// aapt resource value: 0x7F020184
+			public const int flyoutcontent_appbar = 2130837892;
 			
-			// aapt resource value: 0x7F020180
-			public const int flyoutcontent_recycler = 2130837888;
+			// aapt resource value: 0x7F020185
+			public const int flyoutcontent_recycler = 2130837893;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -7769,17 +7816,17 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020181
-			public const int main.appbar = 2130837889;
+			// aapt resource value: 0x7F020186
+			public const int main.appbar = 2130837894;
 			
-			// aapt resource value: 0x7F020184
-			public const int main.scrollview = 2130837892;
+			// aapt resource value: 0x7F020189
+			public const int main.scrollview = 2130837897;
 			
-			// aapt resource value: 0x7F020183
-			public const int main.tablayout = 2130837891;
+			// aapt resource value: 0x7F020188
+			public const int main.tablayout = 2130837896;
 			
-			// aapt resource value: 0x7F020182
-			public const int main.toolbar = 2130837890;
+			// aapt resource value: 0x7F020187
+			public const int main.toolbar = 2130837895;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -7979,14 +8026,14 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F020185
-			public const int shellcontent.appbar = 2130837893;
+			// aapt resource value: 0x7F020190
+			public const int shellcontent.appbar = 2130837904;
 			
-			// aapt resource value: 0x7F020187
-			public const int shellcontent.scrollview = 2130837895;
+			// aapt resource value: 0x7F020192
+			public const int shellcontent.scrollview = 2130837906;
 			
-			// aapt resource value: 0x7F020186
-			public const int shellcontent.toolbar = 2130837894;
+			// aapt resource value: 0x7F020191
+			public const int shellcontent.toolbar = 2130837905;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
@@ -8279,8 +8326,8 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F030070
-			public const int BottomTabLayout = 2130903152;
+			// aapt resource value: 0x7F030071
+			public const int BottomTabLayout = 2130903153;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -8324,8 +8371,11 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030071
-			public const int FlyoutContent = 2130903153;
+			// aapt resource value: 0x7F030004
+			public const int FingerprintDialog = 2130903044;
+			
+			// aapt resource value: 0x7F030072
+			public const int FlyoutContent = 2130903154;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -8390,8 +8440,8 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030072
-			public const int RootLayout = 2130903154;
+			// aapt resource value: 0x7F030073
+			public const int RootLayout = 2130903155;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -8402,8 +8452,8 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F030073
-			public const int ShellContent = 2130903155;
+			// aapt resource value: 0x7F030074
+			public const int ShellContent = 2130903156;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -8416,6 +8466,12 @@ namespace NightOwl.Droid
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
+			
+			// aapt resource value: 0x7F030075
+			public const int zxingscanneractivitylayout = 2130903157;
+			
+			// aapt resource value: 0x7F030076
+			public const int zxingscannerfragmentlayout = 2130903158;
 			
 			static Layout()
 			{
@@ -8666,8 +8722,8 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F060004
-			public const int AppCompatDialogStyle = 2131099652;
+			// aapt resource value: 0x7F060005
+			public const int AppCompatDialogStyle = 2131099653;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -9170,35 +9226,38 @@ namespace NightOwl.Droid
 			// aapt resource value: 0x7F160004
 			public const int CardView_Light = 2132148228;
 			
-			// aapt resource value: 0x7F060010
-			public const int DarkPopupMenu = 2131099664;
-			
-			// aapt resource value: 0x7F060012
-			public const int DarkPopupMenuTextAppearanceLarge = 2131099666;
+			// aapt resource value: 0x7F060413
+			public const int collectionViewStyle = 2131100691;
 			
 			// aapt resource value: 0x7F060011
-			public const int DarkPopupMenuTextAppearanceSmall = 2131099665;
+			public const int DarkPopupMenu = 2131099665;
 			
-			// aapt resource value: 0x7F060009
-			public const int GridThemeDark = 2131099657;
+			// aapt resource value: 0x7F060013
+			public const int DarkPopupMenuTextAppearanceLarge = 2131099667;
 			
-			// aapt resource value: 0x7F060005
-			public const int GridThemeLight = 2131099653;
+			// aapt resource value: 0x7F060012
+			public const int DarkPopupMenuTextAppearanceSmall = 2131099666;
+			
+			// aapt resource value: 0x7F060010
+			public const int GridThemeDark = 2131099664;
 			
 			// aapt resource value: 0x7F060006
-			public const int LightPopupMenu = 2131099654;
-			
-			// aapt resource value: 0x7F060008
-			public const int LightPopupMenuTextAppearanceLarge = 2131099656;
+			public const int GridThemeLight = 2131099654;
 			
 			// aapt resource value: 0x7F060007
-			public const int LightPopupMenuTextAppearanceSmall = 2131099655;
+			public const int LightPopupMenu = 2131099655;
 			
-			// aapt resource value: 0x7F060002
-			public const int MainTheme = 2131099650;
+			// aapt resource value: 0x7F060009
+			public const int LightPopupMenuTextAppearanceLarge = 2131099657;
+			
+			// aapt resource value: 0x7F060008
+			public const int LightPopupMenuTextAppearanceSmall = 2131099656;
 			
 			// aapt resource value: 0x7F060003
-			public const int MainTheme_Base = 2131099651;
+			public const int MainTheme = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int MainTheme_Base = 2131099652;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -9283,6 +9342,9 @@ namespace NightOwl.Droid
 			
 			// aapt resource value: 0x7F1600C5
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2132148421;
+			
+			// aapt resource value: 0x7F060002
+			public const int SplashTheme = 2131099650;
 			
 			// aapt resource value: 0x7F1600C6
 			public const int TextAppearance_AppCompat = 2132148422;
