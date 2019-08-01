@@ -17,7 +17,7 @@ namespace NightOwl.Views
         string password = string.Empty;
         
 
-        bool isBusy;
+        bool isBusy = false;
         bool isVisible;
         bool isShowing;
         public string Name
@@ -90,25 +90,31 @@ namespace NightOwl.Views
         }
         public Command LoginCommand { get; }
         public Command RegisterCommand { get; }
-        void Login()
+        async void Login()
         {
+            IsBusy = true;
+            await Task.Delay(500);
             /* User user = new User(Entry_Username.Text, Entry_Password.Text); 
 
                if (user.CheckInformation())
             { */
+            
             Application.Current.MainPage = new MyTestShell();
 
+            
         /*}
         else
         {
          DisplayAlert("Login", "Username or Password incorrect", "Ok");*/
     }
       // public INavigation Navigation { get; set; }
-         void Register()
+         async void Register()
         {
+            IsBusy = true;
+            await Task.Delay(500);
             try
             {
-                Application.Current.MainPage.Navigation.PushAsync(new RegistrationPage());
+                Application.Current.MainPage= new NavigationPage(new RegistrationPage());
                 
             }
             catch(Exception e)

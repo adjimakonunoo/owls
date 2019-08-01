@@ -14,7 +14,7 @@ using Android.Widget;
 
 namespace NightOwl.Droid
 {
-    [Activity( Icon = "@drawable/bird", NoHistory =true, Theme = "@style/SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity( Icon = "@drawable/bird", Theme = "@style/SplashTheme", MainLauncher = true, NoHistory = true ,ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class SplashScreen : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -39,7 +39,7 @@ namespace NightOwl.Droid
         //{
         //   await Task.Delay(500);
         //    StartActivity(new Intent(Application.Context, typeof(MainActivity)));
-        //    Finish();
+        
         //}
     }
 }

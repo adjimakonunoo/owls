@@ -19,6 +19,7 @@
         <dependency id="Microsoft.Net.Http" version="2.2.29" exclude="Build,Analyzers" />
         <dependency id="MonkeyCache.FileStore" version="1.3.1-beta" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="12.0.2" exclude="Build,Analyzers" />
+        <dependency id="Plugin.Fingerprint" version="1.4.9" exclude="Build,Analyzers" />
         <dependency id="Rg.Plugins.Popup" version="1.1.5.188" exclude="Build,Analyzers" />
         <dependency id="System.Net.WebSockets.Client" version="4.3.2" exclude="Build,Analyzers" />
         <dependency id="Xam.Plugin.Connectivity" version="4.0.0.190-beta" exclude="Build,Analyzers" />

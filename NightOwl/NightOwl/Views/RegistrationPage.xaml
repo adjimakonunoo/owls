@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NightOwl.RegistrationPage">
-    
+   
     <ContentPage.Resources>
        
         <ResourceDictionary>
@@ -24,13 +24,13 @@
         <StackLayout x:Name="MasterStack">
             <StackLayout.Padding>
                 <OnIdiom x:TypeArguments="Thickness">
-                    <OnIdiom.Phone>10,0,10,10</OnIdiom.Phone>
+                    <OnIdiom.Phone>10,0,10,0</OnIdiom.Phone>
                     <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
                 </OnIdiom>
             </StackLayout.Padding>
             
             <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
-                <Image x:Name="TestLogo" Source="bird.png" Margin="0,10,0,0"></Image>
+                <Image x:Name="TestLogo" Source="bird.png" ></Image>
 
             </StackLayout>
             <StackLayout>

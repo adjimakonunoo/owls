@@ -36,6 +36,9 @@ D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Mono.Security.pdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\ImageCircle.Forms.Plugin.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\NightOwl.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Plugin.Connectivity.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Plugin.Fingerprint.Abstractions.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Plugin.Fingerprint.Android.Samsung.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Plugin.Fingerprint.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Rg.Plugins.Popup.Droid.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Xam.Plugin.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\bin\Debug\Xam.Plugin.Droid.dll.mdb
@@ -135,6 +138,9 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Newtonsoft.Json.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\NightOwl.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Connectivity.Abstractions.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Fingerprint.Abstractions.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Fingerprint.Android.Samsung.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Fingerprint.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Rg.Plugins.Popup.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Rg.Plugins.Popup.Droid.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\System.Core.dll
@@ -269,6 +275,9 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Mono.Security.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\ImageCircle.Forms.Plugin.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\NightOwl.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Fingerprint.Abstractions.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Fingerprint.Android.Samsung.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Plugin.Fingerprint.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Rg.Plugins.Popup.Droid.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Xam.Plugin.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\linksrc\Xam.Plugin.Droid.dll.mdb
@@ -326,6 +335,12 @@ D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Connec
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.pdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Fingerprint.Abstractions.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Fingerprint.Abstractions.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Fingerprint.Android.Samsung.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Fingerprint.Android.Samsung.dll.mdb
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Fingerprint.dll
+D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Plugin.Fingerprint.dll.mdb
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Rg.Plugins.Popup.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Rg.Plugins.Popup.Droid.dll
 D:\Workspace\NightOwl\NightOwl.Android\obj\Debug\81\android\assets\Rg.Plugins.Popup.Droid.dll.mdb

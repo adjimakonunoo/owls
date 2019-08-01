@@ -14,7 +14,7 @@
     </NavigationPage.TitleView>
     
     <ScrollView>
-        <StackLayout x:Name="MasterStack">
+        <StackLayout x:Name="MasterStack" Spacing="10">
             <StackLayout.Padding>
                 <OnIdiom x:TypeArguments="Thickness">
                     <OnIdiom.Phone>10,0,10,10</OnIdiom.Phone>
@@ -50,7 +50,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Button Text="Call" Command="{Binding CallCommand}" Grid.Column="0"/>
-                    <Button Text="Send Email" Command="{Binding EmailCommand}" Grid.Column="1"/>
+                    <Button Text="Email" Command="{Binding EmailCommand}" Grid.Column="1"/>
                     <Button Text="Message" Command="{Binding MessageCommand}" Grid.Column="2"/>
                 </Grid>
             

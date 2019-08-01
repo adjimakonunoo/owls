@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NightOwl.LoginPage">
+             x:Class="NightOwl.LoginPage"
+             BackgroundImageSource="AquaBlue">
    
-    <NavigationPage.TitleView>
+    <!--<NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" VerticalOptions="Center"
                       Spacing="10">
 
@@ -12,7 +13,17 @@
                    HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="Center"></Label>
         
         </StackLayout>
-    </NavigationPage.TitleView>
+    </NavigationPage.TitleView>-->
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <OnPlatform.iOS>
+                0, 20, 0, 0
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                10,0,10,0
+            </OnPlatform.Android>
+        </OnPlatform>
+    </ContentPage.Padding>
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="buttonStyle" TargetType="Button">
@@ -34,39 +45,56 @@
         <StackLayout x:Name="MasterStack">
 
             <StackLayout x:Name="LogoStack" VerticalOptions="Fill">
-                <Image x:Name="BirdLogo" Source="bird.png" ></Image>
+                <Image x:Name="BirdLogo" Source="shopping.png" Margin="0,20,0,0"></Image>
             </StackLayout>
-            <StackLayout x:Name="EntryStack" VerticalOptions="CenterAndExpand" Spacing="10">
-            <StackLayout.Padding>
+            <StackLayout x:Name="EntryStack" VerticalOptions="CenterAndExpand" Spacing="10" >
+            <!--<StackLayout.Padding>
                 <OnIdiom x:TypeArguments="Thickness">
                         <OnIdiom.Phone>10,0,10,10</OnIdiom.Phone>
                         <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
                 </OnIdiom>
-            </StackLayout.Padding>
-                <Label  Text="Username" IsVisible="{Binding IsVisible}"></Label>
-                <Entry Placeholder="Username" Text="{Binding Name,Mode=TwoWay}"
+            </StackLayout.Padding>-->
+                <Label  Text="Username" TextColor="White" IsVisible="{Binding IsVisible}"></Label>
+                <Entry Placeholder="Username" PlaceholderColor="White" Text="{Binding Name,Mode=TwoWay}"
                        Style="{StaticResource EntryLabel}"></Entry>
-                <Label Text="Password" IsVisible="{Binding IsShowing}" ></Label>
-                <Entry Text="{Binding Password}" Placeholder="Password"
+                <Label Text="Password" TextColor="White" IsVisible="{Binding IsShowing}" ></Label>
+                <Entry Text="{Binding Password}" Placeholder="Password" PlaceholderColor="White"
                        IsPassword="True" IsTextPredictionEnabled="False"
                        IsSpellCheckEnabled="False" Style="{StaticResource EntryLabel}"></Entry>
                 <!--<Label Text="{Binding Mytest}"/>-->
-                <ActivityIndicator  IsRunning="{Binding IsBusy}"
-                                       VerticalOptions="Center" HorizontalOptions="Center" Color="Blue">
-                </ActivityIndicator>
-                <Grid x:Name="buttonsGrid" Grid.Row="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Button Text="Sign In" Command="{Binding LoginCommand}"
-                    Style="{StaticResource buttonStyle}" 
-                            Grid.Column="0"></Button>
-                    <Button Text="Register" Command="{Binding RegisterCommand}" 
-                            Style="{StaticResource buttonStyle}"
-                            Grid.Column="1"></Button>
-                </Grid>
                 
+            
+            <Grid x:Name="buttonsGrid" RowSpacing="10">
+                    <!--<Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0">
+                        <Button Text="Sign In" Command="{Binding LoginCommand}"
+                    Style="{StaticResource buttonStyle}" 
+                            ></Button>
+                        <Label Text="Sign in to your account" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1">
+                        <ActivityIndicator  IsRunning="{Binding IsBusy}"
+                                       VerticalOptions="Center" HorizontalOptions="Center" Color="Yellow">
+                        </ActivityIndicator>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2">
+                       
+                        <Button Text="Register" Command="{Binding RegisterCommand}" 
+                            Style="{StaticResource buttonStyle}"
+                            ></Button>
+                        <Label Text="Get started" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    
+                </Grid>
+
             </StackLayout>
         </StackLayout>
     </ScrollView>

@@ -32,6 +32,9 @@ Newtonsoft.Json
 NightOwl
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
+Plugin.Fingerprint.Abstractions
+Plugin.Fingerprint.Android.Samsung
+Plugin.Fingerprint
 Rg.Plugins.Popup
 Rg.Plugins.Popup.Droid
 System.Buffers
@@ -97,6 +100,3 @@ System.Security.Cryptography.Primitives
 System.Text.Encoding
 System.Reflection.Extensions
 System.Diagnostics.Tools
-Plugin.Fingerprint.Abstractions
-Plugin.Fingerprint.Android.Samsung
-Plugin.Fingerprint
